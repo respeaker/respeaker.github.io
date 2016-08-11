@@ -1,0 +1,11 @@
+---
+title: DIY Voice Controlled WiFi Speaker
+subtitle: Hackable
+layout: default
+modal-id: 5
+img: Redio.png
+thumbnail: Redio.png
+alt: image-alt
+description:  Turn any ordinary speakers into a voice controlled WiFi speaker.
+
+---

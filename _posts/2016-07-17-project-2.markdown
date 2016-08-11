@@ -1,0 +1,11 @@
+---
+title: Voice Interactive Office
+subtitle: Hackable
+layout: default
+modal-id: 2
+img: SmartOffice.png
+thumbnail: SmartOffice-thumbnail.png
+alt: image-alt
+description: Reserve meeting rooms and record the moments of meetings for you.
+
+---

@@ -1,0 +1,11 @@
+---
+title: Smart Photo Album
+subtitle: Lifestyle
+layout: default
+modal-id: 4
+img: VP.png
+thumbnail: VP.png
+alt: image-alt
+description: Voice Controlled Photo Editor, Presenting the photos taken on a specific day.
+
+---

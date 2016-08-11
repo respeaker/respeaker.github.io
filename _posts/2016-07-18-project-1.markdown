@@ -1,0 +1,11 @@
+---
+title: Smart Decorative Cloud
+subtitle: Smart Home
+layout: default
+modal-id: 1
+img: Cloudy.png
+thumbnail: Cloudy-thumbnail.png
+alt: image-alt
+description: Visualize the weather condition as you asked.
+
+---

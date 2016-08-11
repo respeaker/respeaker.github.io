@@ -228,7 +228,8 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    /*background-color: #{{ site.data.template.color.secondary }};*/
+    background-color: #;
 }
 
 @media(min-width:768px) {
@@ -254,7 +255,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #231815;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -315,9 +316,9 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 40px;
+        font-size: 45px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 70px;
     }
 }
 
@@ -350,8 +351,12 @@ section h3.section-subheading {
 }
 
 .service-heading {
-    margin: 15px 0;
+    margin: 18px 0;
     text-transform: none;
+}
+
+h4.service-heading {
+    font-size: 23px;
 }
 
 #portfolio .portfolio-item {

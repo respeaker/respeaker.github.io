@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ReSpeaker</title>
-    <description>ReSpeaker is an open modular voice interface to hack things around you. Let you interact with your home appliances,  your plant, your office, your internet-equipped devices or any other things in your daily life, all by your voice.</description>
+    <description>ReSpeaker is an open modular voice interface to hack things around you. Let you interact with your home appliances, your plant, your office, your internet-equipped devices or any other things in your daily life, all by your voice.</description>
     <link>https://respeaker.github.io/</link>
     <atom:link href="https://respeaker.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 10 Aug 2016 21:29:33 +0800</pubDate>
-    <lastBuildDate>Wed, 10 Aug 2016 21:29:33 +0800</lastBuildDate>
+    <pubDate>Thu, 11 Aug 2016 13:06:22 +0800</pubDate>
+    <lastBuildDate>Thu, 11 Aug 2016 13:06:22 +0800</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Cloudy</title>
+        <title>Smart Decorative Cloud</title>
         <description>
 </description>
-        <pubDate>Fri, 18 Jul 2014 00:00:00 +0800</pubDate>
-        <link>https://respeaker.github.io/2014/07/18/project-1/</link>
-        <guid isPermaLink="true">https://respeaker.github.io/2014/07/18/project-1/</guid>
+        <pubDate>Mon, 18 Jul 2016 00:00:00 +0800</pubDate>
+        <link>https://respeaker.github.io/2016/07/18/project-1/</link>
+        <guid isPermaLink="true">https://respeaker.github.io/2016/07/18/project-1/</guid>
         
         
       </item>
     
       <item>
-        <title>Smart Office</title>
+        <title>Voice Interactive Office</title>
         <description>
 </description>
-        <pubDate>Thu, 17 Jul 2014 00:00:00 +0800</pubDate>
-        <link>https://respeaker.github.io/2014/07/17/project-2/</link>
-        <guid isPermaLink="true">https://respeaker.github.io/2014/07/17/project-2/</guid>
+        <pubDate>Sun, 17 Jul 2016 00:00:00 +0800</pubDate>
+        <link>https://respeaker.github.io/2016/07/17/project-2/</link>
+        <guid isPermaLink="true">https://respeaker.github.io/2016/07/17/project-2/</guid>
         
         
       </item>
@@ -35,49 +35,43 @@
         <title>Talking Flowers</title>
         <description>
 </description>
-        <pubDate>Wed, 16 Jul 2014 00:00:00 +0800</pubDate>
-        <link>https://respeaker.github.io/2014/07/16/project-3/</link>
-        <guid isPermaLink="true">https://respeaker.github.io/2014/07/16/project-3/</guid>
+        <pubDate>Sat, 16 Jul 2016 00:00:00 +0800</pubDate>
+        <link>https://respeaker.github.io/2016/07/16/project-3/</link>
+        <guid isPermaLink="true">https://respeaker.github.io/2016/07/16/project-3/</guid>
         
         
       </item>
     
       <item>
-        <title>Treehouse</title>
+        <title>Smart Photo Album</title>
         <description>
 </description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 +0800</pubDate>
-        <link>https://respeaker.github.io/web%20development/2014/07/15/project-4/</link>
-        <guid isPermaLink="true">https://respeaker.github.io/web%20development/2014/07/15/project-4/</guid>
+        <pubDate>Fri, 15 Jul 2016 00:00:00 +0800</pubDate>
+        <link>https://respeaker.github.io/2016/07/15/project-4/</link>
+        <guid isPermaLink="true">https://respeaker.github.io/2016/07/15/project-4/</guid>
         
-        
-        <category>Web Development</category>
         
       </item>
     
       <item>
-        <title>Round Icons</title>
+        <title>DIY Voice Controlled WiFi Speaker</title>
         <description>
 </description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 +0800</pubDate>
-        <link>https://respeaker.github.io/web%20development/2014/07/15/project-6/</link>
-        <guid isPermaLink="true">https://respeaker.github.io/web%20development/2014/07/15/project-6/</guid>
+        <pubDate>Thu, 14 Jul 2016 00:00:00 +0800</pubDate>
+        <link>https://respeaker.github.io/2016/07/14/project-5/</link>
+        <guid isPermaLink="true">https://respeaker.github.io/2016/07/14/project-5/</guid>
         
-        
-        <category>Web Development</category>
         
       </item>
     
       <item>
-        <title>Startup Framework</title>
+        <title>Voice Robot - Hacking PAPIRO</title>
         <description>
 </description>
-        <pubDate>Mon, 14 Jul 2014 00:00:00 +0800</pubDate>
-        <link>https://respeaker.github.io/web%20development/2014/07/14/project-5/</link>
-        <guid isPermaLink="true">https://respeaker.github.io/web%20development/2014/07/14/project-5/</guid>
+        <pubDate>Wed, 13 Jul 2016 00:00:00 +0800</pubDate>
+        <link>https://respeaker.github.io/2016/07/13/project-6/</link>
+        <guid isPermaLink="true">https://respeaker.github.io/2016/07/13/project-6/</guid>
         
-        
-        <category>Web Development</category>
         
       </item>
     

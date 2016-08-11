@@ -61,7 +61,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Coves Bold,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -80,7 +80,7 @@ h6 {
 .btn-primary {
     border-color: #fed136;
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Coves Bold,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
     background-color: #fed136;
@@ -131,7 +131,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #fed136;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Coves Bold,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -215,7 +215,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Coves Bold,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -236,7 +236,8 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    /*background-color: #fec503;*/
+    background-color: #;
 }
 
 @media(min-width:768px) {
@@ -262,7 +263,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #231815;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -299,7 +300,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Coves Bold,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -322,10 +323,10 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
+        font-family: Coves Bold,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 45px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 70px;
     }
 }
 
@@ -358,8 +359,12 @@ section h3.section-subheading {
 }
 
 .service-heading {
-    margin: 15px 0;
+    margin: 18px 0;
     text-transform: none;
+}
+
+h4.service-heading {
+    font-size: 23px;
 }
 
 #portfolio .portfolio-item {
@@ -699,28 +704,28 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Coves Bold,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Coves Bold,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Coves Bold,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Coves Bold,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
@@ -737,7 +742,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Coves Bold,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -745,7 +750,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Coves Bold,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
