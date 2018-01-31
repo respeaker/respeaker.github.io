@@ -1,0 +1,12 @@
+site_name: ReSpeaker
+pages:
+  - Overview: index.md
+  - USB 6+1 Mic Array: usb_6+1_mic_array.md
+  - 4 Mic Array for Pi: 4_mic_array.md
+  - 2 Mic Array for Pi: 2_mic_array.md
+  - USB 4 Mic Array: usb_4_mic_array.md
+  - MT7688 Core: mt7688_core.md
+theme:
+  name: 'material'
+markdown_extensions:
+  - admonition
