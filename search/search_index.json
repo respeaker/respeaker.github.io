@@ -1,0 +1,94 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "The ReSpeaker Project\n\n\n\n\nNote\n\n\nThe website is still under construction\n\n\n\n\nThe ReSpeaker project provides hardware components and software libraries to build voice enabled device.\n\n\n\n\nHardware\n\n\nThe hardware components include I2S 2 microphone array, I2S 4 microphone array, USB 6+1 microphone array, ReSpeaker Core 7688.\n\n\n\n\n\n\n\n\n\n\nUSB 6+1 Mic Array\n\n\n4 Mic Array for Pi\n\n\n2 Mic Array for Pi\n\n\nMT7688 Core\n\n\nUSB 4 Mic Array\n\n\n\n\n\n\n\n\n\n\nMicrophones\n\n\n7\n\n\n4\n\n\n2\n\n\n1\n\n\n4\n\n\n\n\n\n\nShape\n\n\ncircular\n\n\nsquare\n\n\nrectangle\n\n\ncircular\n\n\ncircular\n\n\n\n\n\n\nInterface\n\n\nUSB\n\n\nI2S\n\n\nI2S\n\n\nWiFi\n\n\nUSB\n\n\n\n\n\n\nRGB LEDs\n\n\n12\n\n\n12\n\n\n3\n\n\n12\n\n\n12\n\n\n\n\n\n\nAudio Output\n\n\nMono\n\n\nNA\n\n\nStereo\n\n\nStereo\n\n\nMono\n\n\n\n\n\n\nNote\n\n\nbuilt-In audio processing algorithms\n\n\n\n\n\n\non-baord ATmega32U4  for Arduino compatible usage,  touch sensor\n\n\ncoming soon\n\n\n\n\n\n\n\n\nSofware\n\n\nAudio processing algorithms including VAD, DOA, Beamforming, NS, AEC and KWS are available and are evolving rapidly.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/#the-respeaker-project", 
+            "text": "Note  The website is still under construction   The ReSpeaker project provides hardware components and software libraries to build voice enabled device.", 
+            "title": "The ReSpeaker Project"
+        }, 
+        {
+            "location": "/#hardware", 
+            "text": "The hardware components include I2S 2 microphone array, I2S 4 microphone array, USB 6+1 microphone array, ReSpeaker Core 7688.      USB 6+1 Mic Array  4 Mic Array for Pi  2 Mic Array for Pi  MT7688 Core  USB 4 Mic Array      Microphones  7  4  2  1  4    Shape  circular  square  rectangle  circular  circular    Interface  USB  I2S  I2S  WiFi  USB    RGB LEDs  12  12  3  12  12    Audio Output  Mono  NA  Stereo  Stereo  Mono    Note  built-In audio processing algorithms    on-baord ATmega32U4  for Arduino compatible usage,  touch sensor  coming soon", 
+            "title": "Hardware"
+        }, 
+        {
+            "location": "/#sofware", 
+            "text": "Audio processing algorithms including VAD, DOA, Beamforming, NS, AEC and KWS are available and are evolving rapidly.", 
+            "title": "Sofware"
+        }, 
+        {
+            "location": "/usb_6+1_mic_array/", 
+            "text": "USB 6+1 Mic Array\n\n\n\n\nThe USB 6+1 Mic Array is a circular microphone array with a 12 RGB LEDs ring. It has builtin VAD, DOA, NS and Beamforming algorithms.\n\n\nResources\n\n\n\n\nrespeaker python library\n for audio recording and LED control\n\n\nAlgorithms for raw data mic array", 
+            "title": "USB 6+1 Mic Array"
+        }, 
+        {
+            "location": "/usb_6+1_mic_array/#usb-61-mic-array", 
+            "text": "The USB 6+1 Mic Array is a circular microphone array with a 12 RGB LEDs ring. It has builtin VAD, DOA, NS and Beamforming algorithms.", 
+            "title": "USB 6+1 Mic Array"
+        }, 
+        {
+            "location": "/usb_6+1_mic_array/#resources", 
+            "text": "respeaker python library  for audio recording and LED control  Algorithms for raw data mic array", 
+            "title": "Resources"
+        }, 
+        {
+            "location": "/4_mic_array/", 
+            "text": "ReSpeaker 4 Mic Array for Raspberry Pi\n\n\n\n\nThe ReSpeaker 4 Mic Array for Raspberry Pi is a Pi hat with a 12 RGB LEDs ring. \n\n\nResources\n\n\n\n\nDriver\n\n\nAlgorithms for raw data mic array", 
+            "title": "4 Mic Array for Pi"
+        }, 
+        {
+            "location": "/4_mic_array/#respeaker-4-mic-array-for-raspberry-pi", 
+            "text": "The ReSpeaker 4 Mic Array for Raspberry Pi is a Pi hat with a 12 RGB LEDs ring.", 
+            "title": "ReSpeaker 4 Mic Array for Raspberry Pi"
+        }, 
+        {
+            "location": "/4_mic_array/#resources", 
+            "text": "Driver  Algorithms for raw data mic array", 
+            "title": "Resources"
+        }, 
+        {
+            "location": "/2_mic_array/", 
+            "text": "ReSpeaker 2 Mic Array for Raspberry Pi\n\n\n\n\nThe ReSpeaker 2 Mic Array is a Pi hat for Raspberry Pi. It has 2 microphones, stereo audio output, on-board class-d audio amplifier and 3 RGB LEDs.\n\n\nResources\n\n\n\n\nDriver\n\n\nApplications", 
+            "title": "2 Mic Array for Pi"
+        }, 
+        {
+            "location": "/2_mic_array/#respeaker-2-mic-array-for-raspberry-pi", 
+            "text": "The ReSpeaker 2 Mic Array is a Pi hat for Raspberry Pi. It has 2 microphones, stereo audio output, on-board class-d audio amplifier and 3 RGB LEDs.", 
+            "title": "ReSpeaker 2 Mic Array for Raspberry Pi"
+        }, 
+        {
+            "location": "/2_mic_array/#resources", 
+            "text": "Driver  Applications", 
+            "title": "Resources"
+        }, 
+        {
+            "location": "/usb_4_mic_array/", 
+            "text": "USB 4 Mic Array\n\n\nIt will come soon.", 
+            "title": "USB 4 Mic Array"
+        }, 
+        {
+            "location": "/usb_4_mic_array/#usb-4-mic-array", 
+            "text": "It will come soon.", 
+            "title": "USB 4 Mic Array"
+        }, 
+        {
+            "location": "/mt7688_core/", 
+            "text": "ReSpeaker Core 7688\n\n\n\n\nThe ReSpeaker Core 7688 has 1 microphones, stereo audio output, on-board class-d audio amplifier, on-board ATmega32U4, 12 RGB LEDs and 8 touch sensors.\n\n\nResources\n\n\n\n\nrespeaker python library\n for audio recording and LED control\n\n\nrespeaker arduino library", 
+            "title": "MT7688 Core"
+        }, 
+        {
+            "location": "/mt7688_core/#respeaker-core-7688", 
+            "text": "The ReSpeaker Core 7688 has 1 microphones, stereo audio output, on-board class-d audio amplifier, on-board ATmega32U4, 12 RGB LEDs and 8 touch sensors.", 
+            "title": "ReSpeaker Core 7688"
+        }, 
+        {
+            "location": "/mt7688_core/#resources", 
+            "text": "respeaker python library  for audio recording and LED control  respeaker arduino library", 
+            "title": "Resources"
+        }
+    ]
+}
