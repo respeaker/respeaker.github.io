@@ -67,13 +67,33 @@
         }, 
         {
             "location": "/usb_4_mic_array/", 
-            "text": "USB 4 Mic Array\n\n\nIt will come soon.", 
+            "text": "Note\n\n\nComing soon\n\n\n\n\n\n\nThe ReSpeaker USB 4 Mic Array is the successor of the ReSpeaker USB 6+1 Mic Array. It has better built-in audio processing algorithms than the 6+1 Mic Array, so it has better audio recording quality, although it only has 4 microphones.\n\n\nFeatures\n\n\n\n\n4 microphones\n\n\n12 RGB LEDs\n\n\nUSB\n\n\nbuilt-in AEC, VAD, DOA, Beamforming and NS\n\n\n16000 sample rate\n\n\n\n\nUsage\n\n\nAudacity\n is recommended.\n\n\nInstall DFU and LED control driver for Windows\n\n\nOn Linux and macOS, the USB 4 Mic Array will just work. On Windows, audio recording and playback will also work without installing a driver. But in order to upgrade the device's firmware or to control LEDs an DSP parameters on Windows, the libusb-win32 driver is required. We use \na handy tool - Zadig\n to install the libusb-win32 driver for both \nSEEED DFU\n and \nSEEED Control\n (the USB 4 Mic Array has 4 devices on Windows Device Manager).\n\n\n\n\n\n\nNote\n\n\nMake sure that libusb-win32 is selected, not WinUSB or libusbK\n\n\n\n\nDevice Firmware Update\n\n\nThe Microphone Array supports USB DFU. We have \na python script - dfu.py\n to do that.\n\n\nwget https://github.com/respeaker/mic_array_dfu/raw/master/dfu.py\npip install pyusb\npython dfu.py --download new_firmware.bin\n\n\n\n\nHow to control the RGB LED ring\n\n\nThe USB 4 Mic Array has on-board 12 RGB LEDs and has a variety of light effects. Go to the \nrespeaker/pixel_ring\n to learn how to use it. The LED control protocol is at \nrespeaker/pixel_ring wiki\n.", 
             "title": "USB 4 Mic Array"
         }, 
         {
-            "location": "/usb_4_mic_array/#usb-4-mic-array", 
-            "text": "It will come soon.", 
-            "title": "USB 4 Mic Array"
+            "location": "/usb_4_mic_array/#features", 
+            "text": "4 microphones  12 RGB LEDs  USB  built-in AEC, VAD, DOA, Beamforming and NS  16000 sample rate", 
+            "title": "Features"
+        }, 
+        {
+            "location": "/usb_4_mic_array/#usage", 
+            "text": "Audacity  is recommended.", 
+            "title": "Usage"
+        }, 
+        {
+            "location": "/usb_4_mic_array/#install-dfu-and-led-control-driver-for-windows", 
+            "text": "On Linux and macOS, the USB 4 Mic Array will just work. On Windows, audio recording and playback will also work without installing a driver. But in order to upgrade the device's firmware or to control LEDs an DSP parameters on Windows, the libusb-win32 driver is required. We use  a handy tool - Zadig  to install the libusb-win32 driver for both  SEEED DFU  and  SEEED Control  (the USB 4 Mic Array has 4 devices on Windows Device Manager).    Note  Make sure that libusb-win32 is selected, not WinUSB or libusbK", 
+            "title": "Install DFU and LED control driver for Windows"
+        }, 
+        {
+            "location": "/usb_4_mic_array/#device-firmware-update", 
+            "text": "The Microphone Array supports USB DFU. We have  a python script - dfu.py  to do that.  wget https://github.com/respeaker/mic_array_dfu/raw/master/dfu.py\npip install pyusb\npython dfu.py --download new_firmware.bin", 
+            "title": "Device Firmware Update"
+        }, 
+        {
+            "location": "/usb_4_mic_array/#how-to-control-the-rgb-led-ring", 
+            "text": "The USB 4 Mic Array has on-board 12 RGB LEDs and has a variety of light effects. Go to the  respeaker/pixel_ring  to learn how to use it. The LED control protocol is at  respeaker/pixel_ring wiki .", 
+            "title": "How to control the RGB LED ring"
         }, 
         {
             "location": "/mt7688_core/", 

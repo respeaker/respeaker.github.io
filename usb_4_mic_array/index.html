@@ -19,6 +19,10 @@
       
         <meta name="lang:search.language" content="en">
       
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
         <meta name="lang:search.result.none" content="No matching documents">
       
         <meta name="lang:search.result.one" content="1 matching document">
@@ -28,7 +32,7 @@
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.5.4">
+      <meta name="generator" content="mkdocs-0.17.2, mkdocs-material-2.6.0">
     
     
       
@@ -53,7 +57,6 @@
     
   </head>
   
-  
     <body dir="ltr">
   
     <svg class="md-svg">
@@ -66,7 +69,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <a href="#usb-4-mic-array" tabindex="1" class="md-skip">
+      <a href="#features" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -175,7 +178,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../usb_6+1_mic_array/" title="USB 6+1 Mic Array" class="md-nav__link">
+    <a href="../usb_6%2B1_mic_array/" title="USB 6+1 Mic Array" class="md-nav__link">
       USB 6+1 Mic Array
     </a>
   </li>
@@ -216,12 +219,63 @@
     
     <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
     
-      
     
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        USB 4 Mic Array
+      </label>
     
     <a href="./" title="USB 4 Mic Array" class="md-nav__link md-nav__link--active">
       USB 4 Mic Array
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#features" title="Features" class="md-nav__link">
+    Features
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" title="Usage" class="md-nav__link">
+    Usage
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-dfu-and-led-control-driver-for-windows" title="Install DFU and LED control driver for Windows" class="md-nav__link">
+    Install DFU and LED control driver for Windows
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#device-firmware-update" title="Device Firmware Update" class="md-nav__link">
+    Device Firmware Update
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-control-the-rgb-led-ring" title="How to control the RGB LED ring" class="md-nav__link">
+    How to control the RGB LED ring
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -252,8 +306,48 @@
 <nav class="md-nav md-nav--secondary">
   
   
-    
   
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#features" title="Features" class="md-nav__link">
+    Features
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage" title="Usage" class="md-nav__link">
+    Usage
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-dfu-and-led-control-driver-for-windows" title="Install DFU and LED control driver for Windows" class="md-nav__link">
+    Install DFU and LED control driver for Windows
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#device-firmware-update" title="Device Firmware Update" class="md-nav__link">
+    Device Firmware Update
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-control-the-rgb-led-ring" title="How to control the RGB LED ring" class="md-nav__link">
+    How to control the RGB LED ring
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
   
 </nav>
                   </div>
@@ -266,8 +360,40 @@
               
                 
                 
-                <h1 id="usb-4-mic-array">USB 4 Mic Array</h1>
-<p>It will come soon.</p>
+                  <h1>USB 4 Mic Array</h1>
+                
+                <div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Coming soon</p>
+</div>
+<p><img alt="" src="../assets/images/usb_4_mic_array.png" /></p>
+<p>The ReSpeaker USB 4 Mic Array is the successor of the ReSpeaker USB 6+1 Mic Array. It has better built-in audio processing algorithms than the 6+1 Mic Array, so it has better audio recording quality, although it only has 4 microphones.</p>
+<h2 id="features">Features</h2>
+<ul>
+<li>4 microphones</li>
+<li>12 RGB LEDs</li>
+<li>USB</li>
+<li>built-in AEC, VAD, DOA, Beamforming and NS</li>
+<li>16000 sample rate</li>
+</ul>
+<h2 id="usage">Usage</h2>
+<p><a href="https://www.audacityteam.org/">Audacity</a> is recommended.</p>
+<h2 id="install-dfu-and-led-control-driver-for-windows">Install DFU and LED control driver for Windows</h2>
+<p>On Linux and macOS, the USB 4 Mic Array will just work. On Windows, audio recording and playback will also work without installing a driver. But in order to upgrade the device's firmware or to control LEDs an DSP parameters on Windows, the libusb-win32 driver is required. We use <a href="">a handy tool - Zadig</a> to install the libusb-win32 driver for both <code>SEEED DFU</code> and <code>SEEED Control</code> (the USB 4 Mic Array has 4 devices on Windows Device Manager).</p>
+<p><img alt="" src="../assets/images/usb_4mic_array_driver.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Make sure that libusb-win32 is selected, not WinUSB or libusbK</p>
+</div>
+<h2 id="device-firmware-update">Device Firmware Update</h2>
+<p>The Microphone Array supports USB DFU. We have <a href="https://github.com/respeaker/mic_array_dfu/blob/master/dfu.py">a python script - dfu.py</a> to do that.</p>
+<pre><code>wget https://github.com/respeaker/mic_array_dfu/raw/master/dfu.py
+pip install pyusb
+python dfu.py --download new_firmware.bin
+</code></pre>
+
+<h2 id="how-to-control-the-rgb-led-ring">How to control the RGB LED ring</h2>
+<p>The USB 4 Mic Array has on-board 12 RGB LEDs and has a variety of light effects. Go to the <a href="https://github.com/respeaker/pixel_ring">respeaker/pixel_ring</a> to learn how to use it. The LED control protocol is at <a href="https://github.com/respeaker/pixel_ring/wiki/ReSpeaker-USB-4-Mic-Array-LED-Control-Protocol">respeaker/pixel_ring wiki</a>.</p>
                 
                   
                 
@@ -337,7 +463,7 @@
       
     </div>
     
-      <script src="../assets/javascripts/application.f041762f.js"></script>
+      <script src="../assets/javascripts/application.9fb73e57.js"></script>
       
       <script>app.initialize({version:"0.17.2",url:{base:".."}})</script>
       
