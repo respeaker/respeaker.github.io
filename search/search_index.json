@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "The ReSpeaker Project\n\n\n\n\nNote\n\n\nThe website is still under construction\n\n\n\n\nThe ReSpeaker project provides hardware components and software libraries to build voice enabled device.\n\n\n\n\nHardware\n\n\nThe hardware components include I2S 2 microphone array, I2S 4 microphone array, USB 6+1 microphone array, ReSpeaker Core 7688.\n\n\n\n\n\n\n\n\n\n\nUSB 6+1 Mic Array\n\n\n4 Mic Array for Pi\n\n\n2 Mic Array for Pi\n\n\nMT7688 Core\n\n\nUSB 4 Mic Array\n\n\n\n\n\n\n\n\n\n\nMicrophones\n\n\n7\n\n\n4\n\n\n2\n\n\n1\n\n\n4\n\n\n\n\n\n\nShape\n\n\ncircular\n\n\nsquare\n\n\nrectangle\n\n\ncircular\n\n\ncircular\n\n\n\n\n\n\nInterface\n\n\nUSB\n\n\nI2S\n\n\nI2S\n\n\nWiFi\n\n\nUSB\n\n\n\n\n\n\nRGB LEDs\n\n\n12\n\n\n12\n\n\n3\n\n\n12\n\n\n12\n\n\n\n\n\n\nAudio Output\n\n\nMono\n\n\nNA\n\n\nStereo\n\n\nStereo\n\n\nMono\n\n\n\n\n\n\nNote\n\n\nbuilt-In audio processing algorithms\n\n\n\n\n\n\non-baord ATmega32U4  for Arduino compatible usage,  touch sensor\n\n\ncoming soon\n\n\n\n\n\n\n\n\nSofware\n\n\nAudio processing algorithms including VAD, DOA, Beamforming, NS, AEC and KWS are available and are evolving rapidly.", 
+            "text": "The ReSpeaker Project\n\n\n\n\nNote\n\n\nThe website is still under construction\n\n\n\n\nThe ReSpeaker project provides hardware components and software libraries to build voice enabled device.\n\n\n\n\nHardware\n\n\nThe hardware components include I2S microphone array for Raspberry Pi, USB microphone array for Linux/Windows/macOS, standalone ReSpeaker Core v1.0 \n vv2.0.\n\n\nMicrophone Array\n\n\n\n\n\n\n\n\n\n\nUSB 6+1 Mic Array\n\n\n4 Mic Array for Pi\n\n\n2 Mic Array for Pi\n\n\nUSB 4 Mic Array\n\n\n\n\n\n\n\n\n\n\nMicrophones\n\n\n7\n\n\n4\n\n\n2\n\n\n4\n\n\n\n\n\n\nShape\n\n\ncircular\n\n\nsquare\n\n\nrectangle\n\n\ncircular\n\n\n\n\n\n\nInterface\n\n\nUSB\n\n\nI2S\n\n\nI2S\n\n\nUSB\n\n\n\n\n\n\nRGB LEDs\n\n\n12\n\n\n12\n\n\n3\n\n\n12\n\n\n\n\n\n\nAudio Output\n\n\nMono\n\n\nNA\n\n\nStereo\n\n\nMono\n\n\n\n\n\n\nNote\n\n\nbuilt-In algorithms\n\n\n\n\n\n\ncoming soon\n\n\n\n\n\n\n\n\nStandalone ReSpeaker Core\n\n\n\n\n\n\n\n\n\n\nReSpeaker Core v1 (MT7688)\n\n\nReSpeaker Core v2 (RK3229)\n\n\n\n\n\n\n\n\n\n\nCPU\n\n\nMT7688 (MIPS24KEc, 580 MHz)\n\n\nRK3229 (4 ARM Cortex A7 cores, 1.5GHz)\n\n\n\n\n\n\nRAM\n\n\n256 MB\n\n\n1 GB\n\n\n\n\n\n\nMicrophones\n\n\n1\n\n\n6\n\n\n\n\n\n\nShape\n\n\ncircular\n\n\nhexagon\n\n\n\n\n\n\nInterfaces\n\n\nWiFi, USB device\n\n\nWiFi, Bluetooth, Ethernet, HDMI, USB otg/host\n\n\n\n\n\n\nloopback\n\n\nNA\n\n\n2 channels\n\n\n\n\n\n\n\n\nSofware\n\n\nAudio processing algorithms including VAD, DOA, Beamforming, NS, AEC and KWS are available and are evolving rapidly.", 
             "title": "Overview"
         }, 
         {
@@ -12,8 +12,18 @@
         }, 
         {
             "location": "/#hardware", 
-            "text": "The hardware components include I2S 2 microphone array, I2S 4 microphone array, USB 6+1 microphone array, ReSpeaker Core 7688.      USB 6+1 Mic Array  4 Mic Array for Pi  2 Mic Array for Pi  MT7688 Core  USB 4 Mic Array      Microphones  7  4  2  1  4    Shape  circular  square  rectangle  circular  circular    Interface  USB  I2S  I2S  WiFi  USB    RGB LEDs  12  12  3  12  12    Audio Output  Mono  NA  Stereo  Stereo  Mono    Note  built-In audio processing algorithms    on-baord ATmega32U4  for Arduino compatible usage,  touch sensor  coming soon", 
+            "text": "The hardware components include I2S microphone array for Raspberry Pi, USB microphone array for Linux/Windows/macOS, standalone ReSpeaker Core v1.0   vv2.0.", 
             "title": "Hardware"
+        }, 
+        {
+            "location": "/#microphone-array", 
+            "text": "USB 6+1 Mic Array  4 Mic Array for Pi  2 Mic Array for Pi  USB 4 Mic Array      Microphones  7  4  2  4    Shape  circular  square  rectangle  circular    Interface  USB  I2S  I2S  USB    RGB LEDs  12  12  3  12    Audio Output  Mono  NA  Stereo  Mono    Note  built-In algorithms    coming soon", 
+            "title": "Microphone Array"
+        }, 
+        {
+            "location": "/#standalone-respeaker-core", 
+            "text": "ReSpeaker Core v1 (MT7688)  ReSpeaker Core v2 (RK3229)      CPU  MT7688 (MIPS24KEc, 580 MHz)  RK3229 (4 ARM Cortex A7 cores, 1.5GHz)    RAM  256 MB  1 GB    Microphones  1  6    Shape  circular  hexagon    Interfaces  WiFi, USB device  WiFi, Bluetooth, Ethernet, HDMI, USB otg/host    loopback  NA  2 channels", 
+            "title": "Standalone ReSpeaker Core"
         }, 
         {
             "location": "/#sofware", 
@@ -98,7 +108,7 @@
         {
             "location": "/mt7688_core/", 
             "text": "ReSpeaker Core 7688\n\n\n\n\nThe ReSpeaker Core 7688 has 1 microphones, stereo audio output, on-board class-d audio amplifier, on-board ATmega32U4, 12 RGB LEDs and 8 touch sensors.\n\n\nResources\n\n\n\n\nrespeaker python library\n for audio recording and LED control\n\n\nrespeaker arduino library", 
-            "title": "MT7688 Core"
+            "title": "ReSpeaker Core v1.0 (MT7688)"
         }, 
         {
             "location": "/mt7688_core/#respeaker-core-7688", 
@@ -109,6 +119,31 @@
             "location": "/mt7688_core/#resources", 
             "text": "respeaker python library  for audio recording and LED control  respeaker arduino library", 
             "title": "Resources"
+        }, 
+        {
+            "location": "/rk3229_core/", 
+            "text": "ReSpeaker Core v2.0 (RK3229)\n\n\n\n\nSeeed\u2019s ReSpeaker Core v2.0 is designed for voice interface applications. It is based on the Rockchip RK3229, a quad-core ARM Cortex A7, running up to 1.5GHz, with 1GB RAM. The board features a six microphone array with speech algorithms including DoA (Direction of Arrival), BF (Beamforming), AEC (Acoustic Echo Cancellation), etc.\n\n\nReSpeaker Core v2.0 runs a GNU/Linux operating system (Debian). It benefits from a powerful and active community allowing for the use of existing software and tools for development, testing, and deployment, enabling rapid product development.\n\n\nReSpeaker Core v2.0 is designed as a feature rich development board for businesses to evaluate. To this end the board consists of two main sections, the first being the center core module containing the CPU, Memory (RAM), and PMU. The second section is the outer carrier board which contains the peripherals such as the eMMC, connectors, and wireless connectivity components. Either section or both can be customized through Seeed\u2019s customization services.\n\n\nFeatures\n\n\n\n\nDebian-Based Linux System\n\n\nSDK for Speech Algorithms with Full Documents\n\n\nC++ SDK and Python Wrapper\n\n\n\n\nSpeech Algorithms and Features\n\n\n\n\n\n\nKeyword Spotting (Wake-Up)\n\n\n\n\nBF (Beamforming)\n\n\nDoA (Direction of Arrival)\n\n\nNS (Noise Suppression)\n\n\n\n\nAEC (Acoustic Echo Cancellation) and AGC (Automatic Gain Control)\n\n\n\n\n\n\nAll-in-One Solution with High Performance SoC\n\n\n\n\n8 Channel ADC for 6 Microphone Array and 2 Loopbacks (Hardware Loopback)\n\n\n\n\nResources\n\n\n\n\nAudio front-end processing algorithms including AEC, Beamforming, NS and KWS\n\n\nGoogle Assistant Demo\n\n\nAlexa Voice Service C++ SDK for ReSpeaker Core v2.0\n\n\nAlexa Voice Service \n DuerOS Python SDK\n\n\nRGB LEDs library\n\n\nMicrosoft Speech Translation Demo\n\n\n\n\nWiki\n\n\nhttp://wiki.seeedstudio.com/ReSpeaker_Core_v2.0/", 
+            "title": "ReSpeaker Core v2.0 (RK3229)"
+        }, 
+        {
+            "location": "/rk3229_core/#respeaker-core-v20-rk3229", 
+            "text": "Seeed\u2019s ReSpeaker Core v2.0 is designed for voice interface applications. It is based on the Rockchip RK3229, a quad-core ARM Cortex A7, running up to 1.5GHz, with 1GB RAM. The board features a six microphone array with speech algorithms including DoA (Direction of Arrival), BF (Beamforming), AEC (Acoustic Echo Cancellation), etc.  ReSpeaker Core v2.0 runs a GNU/Linux operating system (Debian). It benefits from a powerful and active community allowing for the use of existing software and tools for development, testing, and deployment, enabling rapid product development.  ReSpeaker Core v2.0 is designed as a feature rich development board for businesses to evaluate. To this end the board consists of two main sections, the first being the center core module containing the CPU, Memory (RAM), and PMU. The second section is the outer carrier board which contains the peripherals such as the eMMC, connectors, and wireless connectivity components. Either section or both can be customized through Seeed\u2019s customization services.", 
+            "title": "ReSpeaker Core v2.0 (RK3229)"
+        }, 
+        {
+            "location": "/rk3229_core/#features", 
+            "text": "Debian-Based Linux System  SDK for Speech Algorithms with Full Documents  C++ SDK and Python Wrapper   Speech Algorithms and Features    Keyword Spotting (Wake-Up)   BF (Beamforming)  DoA (Direction of Arrival)  NS (Noise Suppression)   AEC (Acoustic Echo Cancellation) and AGC (Automatic Gain Control)    All-in-One Solution with High Performance SoC   8 Channel ADC for 6 Microphone Array and 2 Loopbacks (Hardware Loopback)", 
+            "title": "Features"
+        }, 
+        {
+            "location": "/rk3229_core/#resources", 
+            "text": "Audio front-end processing algorithms including AEC, Beamforming, NS and KWS  Google Assistant Demo  Alexa Voice Service C++ SDK for ReSpeaker Core v2.0  Alexa Voice Service   DuerOS Python SDK  RGB LEDs library  Microsoft Speech Translation Demo", 
+            "title": "Resources"
+        }, 
+        {
+            "location": "/rk3229_core/#wiki", 
+            "text": "http://wiki.seeedstudio.com/ReSpeaker_Core_v2.0/", 
+            "title": "Wiki"
         }
     ]
 }
