@@ -47,33 +47,43 @@
         }, 
         {
             "location": "/4_mic_array/", 
-            "text": "ReSpeaker 4 Mic Array for Raspberry Pi\n\n\n\n\nThe ReSpeaker 4 Mic Array for Raspberry Pi is a Pi hat with a 12 RGB LEDs ring. \n\n\nResources\n\n\n\n\nDriver\n\n\nAlgorithms for raw data mic array", 
+            "text": "ReSpeaker 4 Mic Array for Raspberry Pi\n\n\n\n\nThe ReSpeaker 4 Mic Array for Raspberry Pi is a Pi hat with a 12 RGB LEDs ring.\nIt is designed to build voice enabled applications such as Google Assistant and Alexa.\n\n\nThere are several algorithms such as DOA, VAD, NS and KWS we can use with the 4 mic array.\n\n\nResources\n\n\n\n\nLinux driver for Raspberry Pi\n\n\nAlgorithms includes DOA, VAD, NS\n\n\nVoice Engine project, provides building blocks to create voice enabled objects\n\n\nAcoustic Echo Cancellation (AEC) project\n\n\n\n\nWiki\n\n\nhttp://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi", 
             "title": "4 Mic Array for Pi"
         }, 
         {
             "location": "/4_mic_array/#respeaker-4-mic-array-for-raspberry-pi", 
-            "text": "The ReSpeaker 4 Mic Array for Raspberry Pi is a Pi hat with a 12 RGB LEDs ring.", 
+            "text": "The ReSpeaker 4 Mic Array for Raspberry Pi is a Pi hat with a 12 RGB LEDs ring.\nIt is designed to build voice enabled applications such as Google Assistant and Alexa.  There are several algorithms such as DOA, VAD, NS and KWS we can use with the 4 mic array.", 
             "title": "ReSpeaker 4 Mic Array for Raspberry Pi"
         }, 
         {
             "location": "/4_mic_array/#resources", 
-            "text": "Driver  Algorithms for raw data mic array", 
+            "text": "Linux driver for Raspberry Pi  Algorithms includes DOA, VAD, NS  Voice Engine project, provides building blocks to create voice enabled objects  Acoustic Echo Cancellation (AEC) project", 
             "title": "Resources"
         }, 
         {
+            "location": "/4_mic_array/#wiki", 
+            "text": "http://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi", 
+            "title": "Wiki"
+        }, 
+        {
             "location": "/2_mic_array/", 
-            "text": "ReSpeaker 2 Mic Array for Raspberry Pi\n\n\n\n\nThe ReSpeaker 2 Mic Array is a Pi hat for Raspberry Pi. It has 2 microphones, stereo audio output, on-board class-d audio amplifier and 3 RGB LEDs.\n\n\nResources\n\n\n\n\nDriver\n\n\nApplications", 
+            "text": "ReSpeaker 2 Mic Array for Raspberry Pi\n\n\n\n\nThe ReSpeaker 2 Mic Array (ReSpeaker 2-Mics Pi HAT) is a 2 microphone array Pi Hat for Raspberry Pi designed for AI and voice applications. This means that you can build a more powerful and flexible voice product that integrates Amazon Alexa Voice Service, Google Assistant, and so on.\n\n\nThe board is based on WM8960, a low power stereo codec. There are 2 microphones on both sides of the board for collecting sounds and it also provides 3 APA102 RGB LEDs, 1 User Button and 2 on-board Grove interfaces for expanding your applications. What is more, 3.5mm Audio Jack or JST 2.0 Speaker Out are both available for audio output.\n\n\nResources\n\n\n\n\nLinux driver for Raspberry Pi\n\n\nGoogle Assistant Demo \n Alexa Demo\n\n\nVoice Engine project, provides building blocks to create voice enabled objects\n\n\nAcoustic Echo Cancellation (AEC) project\n\n\n\n\nWiki\n\n\nhttp://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/", 
             "title": "2 Mic Array for Pi"
         }, 
         {
             "location": "/2_mic_array/#respeaker-2-mic-array-for-raspberry-pi", 
-            "text": "The ReSpeaker 2 Mic Array is a Pi hat for Raspberry Pi. It has 2 microphones, stereo audio output, on-board class-d audio amplifier and 3 RGB LEDs.", 
+            "text": "The ReSpeaker 2 Mic Array (ReSpeaker 2-Mics Pi HAT) is a 2 microphone array Pi Hat for Raspberry Pi designed for AI and voice applications. This means that you can build a more powerful and flexible voice product that integrates Amazon Alexa Voice Service, Google Assistant, and so on.  The board is based on WM8960, a low power stereo codec. There are 2 microphones on both sides of the board for collecting sounds and it also provides 3 APA102 RGB LEDs, 1 User Button and 2 on-board Grove interfaces for expanding your applications. What is more, 3.5mm Audio Jack or JST 2.0 Speaker Out are both available for audio output.", 
             "title": "ReSpeaker 2 Mic Array for Raspberry Pi"
         }, 
         {
             "location": "/2_mic_array/#resources", 
-            "text": "Driver  Applications", 
+            "text": "Linux driver for Raspberry Pi  Google Assistant Demo   Alexa Demo  Voice Engine project, provides building blocks to create voice enabled objects  Acoustic Echo Cancellation (AEC) project", 
             "title": "Resources"
+        }, 
+        {
+            "location": "/2_mic_array/#wiki", 
+            "text": "http://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/", 
+            "title": "Wiki"
         }, 
         {
             "location": "/usb_4_mic_array/", 
