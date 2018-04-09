@@ -5,8 +5,10 @@ pages:
   - 4 Mic Array for Pi: 4_mic_array.md
   - 2 Mic Array for Pi: 2_mic_array.md
   - USB 4 Mic Array: usb_4_mic_array.md
-  - MT7688 Core: mt7688_core.md
+  - ReSpeaker Core v1.0 (MT7688): mt7688_core.md
+  - ReSpeaker Core v2.0 (RK3229): rk3229_core.md
 theme:
   name: 'material'
 markdown_extensions:
   - admonition
+google_analytics: ['UA-117094074-1', 'respeaker.io']
