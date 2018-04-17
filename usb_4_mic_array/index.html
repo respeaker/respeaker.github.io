@@ -175,8 +175,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../usb_6+1_mic_array/" title="USB 6+1 Mic Array" class="md-nav__link">
-      USB 6+1 Mic Array
+    <a href="../2_mic_array/" title="2 Mic Array for Pi" class="md-nav__link">
+      2 Mic Array for Pi
     </a>
   </li>
 
@@ -189,18 +189,6 @@
   <li class="md-nav__item">
     <a href="../4_mic_array/" title="4 Mic Array for Pi" class="md-nav__link">
       4 Mic Array for Pi
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="../2_mic_array/" title="2 Mic Array for Pi" class="md-nav__link">
-      2 Mic Array for Pi
     </a>
   </li>
 
@@ -248,15 +236,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#install-dfu-and-led-control-driver-for-windows" title="Install DFU and LED control driver for Windows" class="md-nav__link">
-    Install DFU and LED control driver for Windows
+  <a href="#led-control-driver-for-windows" title="LED control driver for Windows" class="md-nav__link">
+    LED control driver for Windows
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#device-firmware-update" title="Device Firmware Update" class="md-nav__link">
-    Device Firmware Update
+  <a href="#device-firmware-update-on-linux" title="Device Firmware Update on Linux" class="md-nav__link">
+    Device Firmware Update on Linux
   </a>
   
 </li>
@@ -268,12 +256,38 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#tuning" title="Tuning" class="md-nav__link">
+    Tuning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#realtime-sound-source-localization-and-tracking" title="Realtime sound source localization and tracking" class="md-nav__link">
+    Realtime sound source localization and tracking
+  </a>
+  
+</li>
+      
       
       
     </ul>
   
 </nav>
     
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../usb_6+1_mic_array/" title="USB 6+1 Mic Array" class="md-nav__link">
+      USB 6+1 Mic Array
+    </a>
   </li>
 
     
@@ -334,15 +348,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#install-dfu-and-led-control-driver-for-windows" title="Install DFU and LED control driver for Windows" class="md-nav__link">
-    Install DFU and LED control driver for Windows
+  <a href="#led-control-driver-for-windows" title="LED control driver for Windows" class="md-nav__link">
+    LED control driver for Windows
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#device-firmware-update" title="Device Firmware Update" class="md-nav__link">
-    Device Firmware Update
+  <a href="#device-firmware-update-on-linux" title="Device Firmware Update on Linux" class="md-nav__link">
+    Device Firmware Update on Linux
   </a>
   
 </li>
@@ -350,6 +364,20 @@
         <li class="md-nav__item">
   <a href="#how-to-control-the-rgb-led-ring" title="How to control the RGB LED ring" class="md-nav__link">
     How to control the RGB LED ring
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tuning" title="Tuning" class="md-nav__link">
+    Tuning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#realtime-sound-source-localization-and-tracking" title="Realtime sound source localization and tracking" class="md-nav__link">
+    Realtime sound source localization and tracking
   </a>
   
 </li>
@@ -387,22 +415,63 @@
 </ul>
 <h2 id="usage">Usage</h2>
 <p><a href="https://www.audacityteam.org/">Audacity</a> is recommended.</p>
-<h2 id="install-dfu-and-led-control-driver-for-windows">Install DFU and LED control driver for Windows</h2>
-<p>On Linux and macOS, the USB 4 Mic Array will just work. On Windows, audio recording and playback will also work without installing a driver. But in order to upgrade the device's firmware or to control LEDs an DSP parameters on Windows, the libusb-win32 driver is required. We use <a href="">a handy tool - Zadig</a> to install the libusb-win32 driver for both <code>SEEED DFU</code> and <code>SEEED Control</code> (the USB 4 Mic Array has 4 devices on Windows Device Manager).</p>
+<h2 id="led-control-driver-for-windows">LED control driver for Windows</h2>
+<p>On Linux and macOS, the USB 4 Mic Array will just work. On Windows, audio recording and playback will also work without installing a driver. But in order to control LEDs and to tune DSP parameters on Windows, the libusb-win32 driver is required. We use <a href="">a handy tool - Zadig</a> to install the libusb-win32 driver for both <code>SEEED DFU</code> and <code>SEEED Control</code> (the USB 4 Mic Array has 4 devices on Windows Device Manager).</p>
 <p><img alt="" src="../assets/images/usb_4mic_array_driver.png" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Make sure that libusb-win32 is selected, not WinUSB or libusbK</p>
 </div>
-<h2 id="device-firmware-update">Device Firmware Update</h2>
-<p>The Microphone Array supports USB DFU. We have <a href="https://github.com/respeaker/mic_array_dfu/blob/master/dfu.py">a python script - dfu.py</a> to do that.</p>
+<h2 id="device-firmware-update-on-linux">Device Firmware Update on Linux</h2>
+<p>The Microphone Array supports USB DFU. We have <a href="https://github.com/respeaker/mic_array_dfu/blob/master/dfu.py">a python script dfu.py</a> to do that.</p>
 <pre><code>wget https://github.com/respeaker/mic_array_dfu/raw/master/dfu.py
 pip install pyusb
 python dfu.py --download new_firmware.bin
 </code></pre>
 
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The USB DFU on Windows is buggy, some Windows work (tested on Surface Book), but some Windows don't. Using Linux to change its firmware is recommended.</p>
+</div>
 <h2 id="how-to-control-the-rgb-led-ring">How to control the RGB LED ring</h2>
-<p>The USB 4 Mic Array has on-board 12 RGB LEDs and has a variety of light effects. Go to the <a href="https://github.com/respeaker/pixel_ring">respeaker/pixel_ring</a> to learn how to use it. The LED control protocol is at <a href="https://github.com/respeaker/pixel_ring/wiki/ReSpeaker-USB-4-Mic-Array-LED-Control-Protocol">respeaker/pixel_ring wiki</a>.</p>
+<p>The USB 4 Mic Array has on-board 12 RGB LEDs and has a variety of light effects. Go to the <a href="https://github.com/respeaker/pixel_ring/blob/master/pixel_ring/usb_pixel_ring_v2.py">respeaker/pixel_ring</a> to learn how to use it. The LED control protocol is at <a href="https://github.com/respeaker/pixel_ring/wiki/ReSpeaker-USB-4-Mic-Array-LED-Control-Protocol">respeaker/pixel_ring wiki</a>.</p>
+<h2 id="tuning">Tuning</h2>
+<p>There are some parameters of built-in algorithms to configure. For example, we can turn off Automatic Gain Control (AGC):</p>
+<pre><code>python tuning.py AGCONOFF 0
+</code></pre>
+
+<p>To get the full list parameters, run:</p>
+<pre><code>python tuning.py -p
+</code></pre>
+
+<h2 id="realtime-sound-source-localization-and-tracking">Realtime sound source localization and tracking</h2>
+<p><a href="https://github.com/introlab/odas">ODAS</a> is a very cool project to perform sound source localization, tracking, separation and post-filtering. Let's have a try!</p>
+<ol>
+<li>get ODAS and build it</li>
+</ol>
+<pre><code>sudo apt-get install libfftw3-dev libconfig-dev libasound2-dev
+git clone https://github.com/introlab/odas.git --branch=dev
+mkdir odas/build
+cd odas/build
+cmake ..
+make
+</code></pre>
+
+<ol>
+<li>get ODAS Studio from https://github.com/introlab/odas_web/releases and open it.</li>
+</ol>
+<p>The <code>odascore</code> will be at <code>odas/bin/odascore</code>, the config file is at <a href="https://github.com/respeaker/usb_4_mic_array/blob/master/odas.cfg">odas.cfg</a>. Change <code>odas.cfg</code> based on your sound card number.</p>
+<pre><code>    interface: {
+        type = &quot;soundcard&quot;;
+        card = 1;
+        device = 0;
+    }
+</code></pre>
+
+<ol>
+<li>upgrade your usb 4 mic array with <a href="https://github.com/respeaker/usb_4_mic_array/blob/master/i6_firmware.bin">i6_firmware.bin</a> which provides 4 channels raw audio data.</li>
+</ol>
+<p><img alt="" src="https://github.com/introlab/odas_web/raw/master/screenshots/live_data.png" /></p>
                 
                   
                 
@@ -421,7 +490,7 @@ python dfu.py --download new_firmware.bin
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../2_mic_array/" title="2 Mic Array for Pi" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../4_mic_array/" title="4 Mic Array for Pi" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -430,19 +499,19 @@ python dfu.py --download new_firmware.bin
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                2 Mic Array for Pi
+                4 Mic Array for Pi
               </span>
             </div>
           </a>
         
         
-          <a href="../mt7688_core/" title="ReSpeaker Core v1.0 (MT7688)" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../usb_6+1_mic_array/" title="USB 6+1 Mic Array" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                ReSpeaker Core v1.0 (MT7688)
+                USB 6+1 Mic Array
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

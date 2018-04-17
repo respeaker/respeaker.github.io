@@ -175,8 +175,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../usb_6+1_mic_array/" title="USB 6+1 Mic Array" class="md-nav__link">
-      USB 6+1 Mic Array
+    <a href="../2_mic_array/" title="2 Mic Array for Pi" class="md-nav__link">
+      2 Mic Array for Pi
     </a>
   </li>
 
@@ -214,6 +214,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#sound-source-localization-tracking" title="Sound Source Localization &amp; Tracking" class="md-nav__link">
+    Sound Source Localization &amp; Tracking
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#resources" title="Resources" class="md-nav__link">
     Resources
   </a>
@@ -242,8 +249,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../2_mic_array/" title="2 Mic Array for Pi" class="md-nav__link">
-      2 Mic Array for Pi
+    <a href="../usb_4_mic_array/" title="USB 4 Mic Array" class="md-nav__link">
+      USB 4 Mic Array
     </a>
   </li>
 
@@ -254,8 +261,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../usb_4_mic_array/" title="USB 4 Mic Array" class="md-nav__link">
-      USB 4 Mic Array
+    <a href="../usb_6+1_mic_array/" title="USB 6+1 Mic Array" class="md-nav__link">
+      USB 6+1 Mic Array
     </a>
   </li>
 
@@ -305,6 +312,13 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#sound-source-localization-tracking" title="Sound Source Localization &amp; Tracking" class="md-nav__link">
+    Sound Source Localization &amp; Tracking
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#resources" title="Resources" class="md-nav__link">
     Resources
   </a>
@@ -335,9 +349,36 @@
                 
                 <h1 id="respeaker-4-mic-array-for-raspberry-pi">ReSpeaker 4 Mic Array for Raspberry Pi</h1>
 <p><img alt="" src="../assets/images/4_mic_array.jpg" /></p>
+<p><a href="https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html"><img alt="Get One" src="../assets/images/get_one.png" /></a></p>
 <p>The ReSpeaker 4 Mic Array for Raspberry Pi is a Pi hat with a 12 RGB LEDs ring.
 It is designed to build voice enabled applications such as Google Assistant and Alexa.</p>
 <p>There are several algorithms such as DOA, VAD, NS and KWS we can use with the 4 mic array.</p>
+<h2 id="sound-source-localization-tracking">Sound Source Localization &amp; Tracking</h2>
+<p><a href="https://github.com/introlab/odas">ODAS</a> is a very cool project to perform sound source localization, tracking, separation and post-filtering. Let's have a try!</p>
+<p><img alt="" src="https://github.com/introlab/odas_web/raw/master/screenshots/live_data.png" /></p>
+<ol>
+<li>
+<p>get ODAS and build it</p>
+<pre><code>sudo apt-get install libfftw3-dev libconfig-dev libasound2-dev
+git clone https://github.com/introlab/odas.git
+mkdir odas/build
+cd odas/build
+cmake ..
+make
+</code></pre>
+</li>
+<li>
+<p>get ODAS Studio from https://github.com/introlab/odas_web/releases and open it. You can run ODAS Studio on a computer or the Raspberry Pi.</p>
+<p>The <code>odascore</code> will be at <code>odas/bin/odascore</code>, the config file is at <code>odas/config/respeaker_4_mic_array.cfg</code>. Change <code>odas.cfg</code> based on your sound card number.</p>
+<pre><code>interface: {
+    type = "soundcard";
+    card = 1;
+    device = 0;
+}
+</code></pre>
+<p>If you run the ODAS Studio on a computer, you should also need to change IP address from <code>127.0.0.1</code> to the IP of the computer.</p>
+</li>
+</ol>
 <h2 id="resources">Resources</h2>
 <ul>
 <li><a href="https://github.com/respeaker/seeed-voicecard">Linux driver for Raspberry Pi</a></li>
@@ -347,7 +388,6 @@ It is designed to build voice enabled applications such as Google Assistant and 
 </ul>
 <h2 id="wiki">Wiki</h2>
 <p><a href="http://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi">http://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi</a></p>
-<p><a href="https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html"><img alt="Get One" src="../assets/images/get_one.png" /></a></p>
                 
                   
                 
@@ -366,7 +406,7 @@ It is designed to build voice enabled applications such as Google Assistant and 
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../usb_6+1_mic_array/" title="USB 6+1 Mic Array" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../2_mic_array/" title="2 Mic Array for Pi" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -375,19 +415,19 @@ It is designed to build voice enabled applications such as Google Assistant and 
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                USB 6+1 Mic Array
+                2 Mic Array for Pi
               </span>
             </div>
           </a>
         
         
-          <a href="../2_mic_array/" title="2 Mic Array for Pi" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../usb_4_mic_array/" title="USB 4 Mic Array" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                2 Mic Array for Pi
+                USB 4 Mic Array
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

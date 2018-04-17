@@ -31,41 +31,6 @@
             "title": "Sofware"
         }, 
         {
-            "location": "/usb_6+1_mic_array/", 
-            "text": "USB 6+1 Mic Array\n\n\n\n\nThe USB 6+1 Mic Array is a circular microphone array with a 12 RGB LEDs ring. It has builtin VAD, DOA, NS and Beamforming algorithms.\n\n\nResources\n\n\n\n\nrespeaker python library\n for audio recording and LED control\n\n\nAlgorithms for raw data mic array", 
-            "title": "USB 6+1 Mic Array"
-        }, 
-        {
-            "location": "/usb_6+1_mic_array/#usb-61-mic-array", 
-            "text": "The USB 6+1 Mic Array is a circular microphone array with a 12 RGB LEDs ring. It has builtin VAD, DOA, NS and Beamforming algorithms.", 
-            "title": "USB 6+1 Mic Array"
-        }, 
-        {
-            "location": "/usb_6+1_mic_array/#resources", 
-            "text": "respeaker python library  for audio recording and LED control  Algorithms for raw data mic array", 
-            "title": "Resources"
-        }, 
-        {
-            "location": "/4_mic_array/", 
-            "text": "ReSpeaker 4 Mic Array for Raspberry Pi\n\n\n\n\nThe ReSpeaker 4 Mic Array for Raspberry Pi is a Pi hat with a 12 RGB LEDs ring.\nIt is designed to build voice enabled applications such as Google Assistant and Alexa.\n\n\nThere are several algorithms such as DOA, VAD, NS and KWS we can use with the 4 mic array.\n\n\nResources\n\n\n\n\nLinux driver for Raspberry Pi\n\n\nAlgorithms includes DOA, VAD, NS\n\n\nVoice Engine project, provides building blocks to create voice enabled objects\n\n\nAcoustic Echo Cancellation (AEC) project\n\n\n\n\nWiki\n\n\nhttp://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi", 
-            "title": "4 Mic Array for Pi"
-        }, 
-        {
-            "location": "/4_mic_array/#respeaker-4-mic-array-for-raspberry-pi", 
-            "text": "The ReSpeaker 4 Mic Array for Raspberry Pi is a Pi hat with a 12 RGB LEDs ring.\nIt is designed to build voice enabled applications such as Google Assistant and Alexa.  There are several algorithms such as DOA, VAD, NS and KWS we can use with the 4 mic array.", 
-            "title": "ReSpeaker 4 Mic Array for Raspberry Pi"
-        }, 
-        {
-            "location": "/4_mic_array/#resources", 
-            "text": "Linux driver for Raspberry Pi  Algorithms includes DOA, VAD, NS  Voice Engine project, provides building blocks to create voice enabled objects  Acoustic Echo Cancellation (AEC) project", 
-            "title": "Resources"
-        }, 
-        {
-            "location": "/4_mic_array/#wiki", 
-            "text": "http://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi", 
-            "title": "Wiki"
-        }, 
-        {
             "location": "/2_mic_array/", 
             "text": "ReSpeaker 2 Mic Array for Raspberry Pi\n\n\n\n\nThe ReSpeaker 2 Mic Array (ReSpeaker 2-Mics Pi HAT) is a 2 microphone array Pi Hat for Raspberry Pi designed for AI and voice applications. This means that you can build a more powerful and flexible voice product that integrates Amazon Alexa Voice Service, Google Assistant, and so on.\n\n\nThe board is based on WM8960, a low power stereo codec. There are 2 microphones on both sides of the board for collecting sounds and it also provides 3 APA102 RGB LEDs, 1 User Button and 2 on-board Grove interfaces for expanding your applications. What is more, 3.5mm Audio Jack or JST 2.0 Speaker Out are both available for audio output.\n\n\nResources\n\n\n\n\nLinux driver for Raspberry Pi\n\n\nGoogle Assistant Demo \n Alexa Demo\n\n\nVoice Engine project, provides building blocks to create voice enabled objects\n\n\nAcoustic Echo Cancellation (AEC) project\n\n\n\n\nWiki\n\n\nhttp://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/", 
             "title": "2 Mic Array for Pi"
@@ -86,8 +51,33 @@
             "title": "Wiki"
         }, 
         {
+            "location": "/4_mic_array/", 
+            "text": "ReSpeaker 4 Mic Array for Raspberry Pi\n\n\n\n\n\n\nThe ReSpeaker 4 Mic Array for Raspberry Pi is a Pi hat with a 12 RGB LEDs ring.\nIt is designed to build voice enabled applications such as Google Assistant and Alexa.\n\n\nThere are several algorithms such as DOA, VAD, NS and KWS we can use with the 4 mic array.\n\n\nSound Source Localization \n Tracking\n\n\nODAS\n is a very cool project to perform sound source localization, tracking, separation and post-filtering. Let's have a try!\n\n\n\n\n\n\n\n\nget ODAS and build it\n\n\nsudo apt-get install libfftw3-dev libconfig-dev libasound2-dev\ngit clone https://github.com/introlab/odas.git\nmkdir odas/build\ncd odas/build\ncmake ..\nmake\n\n\n\n\n\n\n\nget ODAS Studio from https://github.com/introlab/odas_web/releases and open it. You can run ODAS Studio on a computer or the Raspberry Pi.\n\n\nThe \nodascore\n will be at \nodas/bin/odascore\n, the config file is at \nodas/config/respeaker_4_mic_array.cfg\n. Change \nodas.cfg\n based on your sound card number.\n\n\ninterface: {\n    type = \"soundcard\";\n    card = 1;\n    device = 0;\n}\n\n\n\nIf you run the ODAS Studio on a computer, you should also need to change IP address from \n127.0.0.1\n to the IP of the computer.\n\n\n\n\n\n\nResources\n\n\n\n\nLinux driver for Raspberry Pi\n\n\nAlgorithms includes DOA, VAD, NS\n\n\nVoice Engine project, provides building blocks to create voice enabled objects\n\n\nAcoustic Echo Cancellation (AEC) project\n\n\n\n\nWiki\n\n\nhttp://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi", 
+            "title": "4 Mic Array for Pi"
+        }, 
+        {
+            "location": "/4_mic_array/#respeaker-4-mic-array-for-raspberry-pi", 
+            "text": "The ReSpeaker 4 Mic Array for Raspberry Pi is a Pi hat with a 12 RGB LEDs ring.\nIt is designed to build voice enabled applications such as Google Assistant and Alexa.  There are several algorithms such as DOA, VAD, NS and KWS we can use with the 4 mic array.", 
+            "title": "ReSpeaker 4 Mic Array for Raspberry Pi"
+        }, 
+        {
+            "location": "/4_mic_array/#sound-source-localization-tracking", 
+            "text": "ODAS  is a very cool project to perform sound source localization, tracking, separation and post-filtering. Let's have a try!     get ODAS and build it  sudo apt-get install libfftw3-dev libconfig-dev libasound2-dev\ngit clone https://github.com/introlab/odas.git\nmkdir odas/build\ncd odas/build\ncmake ..\nmake    get ODAS Studio from https://github.com/introlab/odas_web/releases and open it. You can run ODAS Studio on a computer or the Raspberry Pi.  The  odascore  will be at  odas/bin/odascore , the config file is at  odas/config/respeaker_4_mic_array.cfg . Change  odas.cfg  based on your sound card number.  interface: {\n    type = \"soundcard\";\n    card = 1;\n    device = 0;\n}  If you run the ODAS Studio on a computer, you should also need to change IP address from  127.0.0.1  to the IP of the computer.", 
+            "title": "Sound Source Localization &amp; Tracking"
+        }, 
+        {
+            "location": "/4_mic_array/#resources", 
+            "text": "Linux driver for Raspberry Pi  Algorithms includes DOA, VAD, NS  Voice Engine project, provides building blocks to create voice enabled objects  Acoustic Echo Cancellation (AEC) project", 
+            "title": "Resources"
+        }, 
+        {
+            "location": "/4_mic_array/#wiki", 
+            "text": "http://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi", 
+            "title": "Wiki"
+        }, 
+        {
             "location": "/usb_4_mic_array/", 
-            "text": "Note\n\n\nComing soon\n\n\n\n\n\n\nThe ReSpeaker USB 4 Mic Array is the successor of the ReSpeaker USB 6+1 Mic Array. It has better built-in audio processing algorithms than the 6+1 Mic Array, so it has better audio recording quality, although it only has 4 microphones.\n\n\nFeatures\n\n\n\n\n4 microphones\n\n\n12 RGB LEDs\n\n\nUSB\n\n\nbuilt-in AEC, VAD, DOA, Beamforming and NS\n\n\n16000 sample rate\n\n\n\n\nUsage\n\n\nAudacity\n is recommended.\n\n\nInstall DFU and LED control driver for Windows\n\n\nOn Linux and macOS, the USB 4 Mic Array will just work. On Windows, audio recording and playback will also work without installing a driver. But in order to upgrade the device's firmware or to control LEDs an DSP parameters on Windows, the libusb-win32 driver is required. We use \na handy tool - Zadig\n to install the libusb-win32 driver for both \nSEEED DFU\n and \nSEEED Control\n (the USB 4 Mic Array has 4 devices on Windows Device Manager).\n\n\n\n\n\n\nNote\n\n\nMake sure that libusb-win32 is selected, not WinUSB or libusbK\n\n\n\n\nDevice Firmware Update\n\n\nThe Microphone Array supports USB DFU. We have \na python script - dfu.py\n to do that.\n\n\nwget https://github.com/respeaker/mic_array_dfu/raw/master/dfu.py\npip install pyusb\npython dfu.py --download new_firmware.bin\n\n\n\n\nHow to control the RGB LED ring\n\n\nThe USB 4 Mic Array has on-board 12 RGB LEDs and has a variety of light effects. Go to the \nrespeaker/pixel_ring\n to learn how to use it. The LED control protocol is at \nrespeaker/pixel_ring wiki\n.", 
+            "text": "Note\n\n\nComing soon\n\n\n\n\n\n\nThe ReSpeaker USB 4 Mic Array is the successor of the ReSpeaker USB 6+1 Mic Array. It has better built-in audio processing algorithms than the 6+1 Mic Array, so it has better audio recording quality, although it only has 4 microphones.\n\n\nFeatures\n\n\n\n\n4 microphones\n\n\n12 RGB LEDs\n\n\nUSB\n\n\nbuilt-in AEC, VAD, DOA, Beamforming and NS\n\n\n16000 sample rate\n\n\n\n\nUsage\n\n\nAudacity\n is recommended.\n\n\nLED control driver for Windows\n\n\nOn Linux and macOS, the USB 4 Mic Array will just work. On Windows, audio recording and playback will also work without installing a driver. But in order to control LEDs and to tune DSP parameters on Windows, the libusb-win32 driver is required. We use \na handy tool - Zadig\n to install the libusb-win32 driver for both \nSEEED DFU\n and \nSEEED Control\n (the USB 4 Mic Array has 4 devices on Windows Device Manager).\n\n\n\n\n\n\nNote\n\n\nMake sure that libusb-win32 is selected, not WinUSB or libusbK\n\n\n\n\nDevice Firmware Update on Linux\n\n\nThe Microphone Array supports USB DFU. We have \na python script dfu.py\n to do that.\n\n\nwget https://github.com/respeaker/mic_array_dfu/raw/master/dfu.py\npip install pyusb\npython dfu.py --download new_firmware.bin\n\n\n\n\n\n\nNote\n\n\nThe USB DFU on Windows is buggy, some Windows work (tested on Surface Book), but some Windows don't. Using Linux to change its firmware is recommended.\n\n\n\n\nHow to control the RGB LED ring\n\n\nThe USB 4 Mic Array has on-board 12 RGB LEDs and has a variety of light effects. Go to the \nrespeaker/pixel_ring\n to learn how to use it. The LED control protocol is at \nrespeaker/pixel_ring wiki\n.\n\n\nTuning\n\n\nThere are some parameters of built-in algorithms to configure. For example, we can turn off Automatic Gain Control (AGC):\n\n\npython tuning.py AGCONOFF 0\n\n\n\n\nTo get the full list parameters, run:\n\n\npython tuning.py -p\n\n\n\n\nRealtime sound source localization and tracking\n\n\nODAS\n is a very cool project to perform sound source localization, tracking, separation and post-filtering. Let's have a try!\n\n\n\n\nget ODAS and build it\n\n\n\n\nsudo apt-get install libfftw3-dev libconfig-dev libasound2-dev\ngit clone https://github.com/introlab/odas.git --branch=dev\nmkdir odas/build\ncd odas/build\ncmake ..\nmake\n\n\n\n\n\n\nget ODAS Studio from https://github.com/introlab/odas_web/releases and open it.\n\n\n\n\nThe \nodascore\n will be at \nodas/bin/odascore\n, the config file is at \nodas.cfg\n. Change \nodas.cfg\n based on your sound card number.\n\n\n    interface: {\n        type = \nsoundcard\n;\n        card = 1;\n        device = 0;\n    }\n\n\n\n\n\n\nupgrade your usb 4 mic array with \ni6_firmware.bin\n which provides 4 channels raw audio data.", 
             "title": "USB 4 Mic Array"
         }, 
         {
@@ -101,19 +91,44 @@
             "title": "Usage"
         }, 
         {
-            "location": "/usb_4_mic_array/#install-dfu-and-led-control-driver-for-windows", 
-            "text": "On Linux and macOS, the USB 4 Mic Array will just work. On Windows, audio recording and playback will also work without installing a driver. But in order to upgrade the device's firmware or to control LEDs an DSP parameters on Windows, the libusb-win32 driver is required. We use  a handy tool - Zadig  to install the libusb-win32 driver for both  SEEED DFU  and  SEEED Control  (the USB 4 Mic Array has 4 devices on Windows Device Manager).    Note  Make sure that libusb-win32 is selected, not WinUSB or libusbK", 
-            "title": "Install DFU and LED control driver for Windows"
+            "location": "/usb_4_mic_array/#led-control-driver-for-windows", 
+            "text": "On Linux and macOS, the USB 4 Mic Array will just work. On Windows, audio recording and playback will also work without installing a driver. But in order to control LEDs and to tune DSP parameters on Windows, the libusb-win32 driver is required. We use  a handy tool - Zadig  to install the libusb-win32 driver for both  SEEED DFU  and  SEEED Control  (the USB 4 Mic Array has 4 devices on Windows Device Manager).    Note  Make sure that libusb-win32 is selected, not WinUSB or libusbK", 
+            "title": "LED control driver for Windows"
         }, 
         {
-            "location": "/usb_4_mic_array/#device-firmware-update", 
-            "text": "The Microphone Array supports USB DFU. We have  a python script - dfu.py  to do that.  wget https://github.com/respeaker/mic_array_dfu/raw/master/dfu.py\npip install pyusb\npython dfu.py --download new_firmware.bin", 
-            "title": "Device Firmware Update"
+            "location": "/usb_4_mic_array/#device-firmware-update-on-linux", 
+            "text": "The Microphone Array supports USB DFU. We have  a python script dfu.py  to do that.  wget https://github.com/respeaker/mic_array_dfu/raw/master/dfu.py\npip install pyusb\npython dfu.py --download new_firmware.bin   Note  The USB DFU on Windows is buggy, some Windows work (tested on Surface Book), but some Windows don't. Using Linux to change its firmware is recommended.", 
+            "title": "Device Firmware Update on Linux"
         }, 
         {
             "location": "/usb_4_mic_array/#how-to-control-the-rgb-led-ring", 
             "text": "The USB 4 Mic Array has on-board 12 RGB LEDs and has a variety of light effects. Go to the  respeaker/pixel_ring  to learn how to use it. The LED control protocol is at  respeaker/pixel_ring wiki .", 
             "title": "How to control the RGB LED ring"
+        }, 
+        {
+            "location": "/usb_4_mic_array/#tuning", 
+            "text": "There are some parameters of built-in algorithms to configure. For example, we can turn off Automatic Gain Control (AGC):  python tuning.py AGCONOFF 0  To get the full list parameters, run:  python tuning.py -p", 
+            "title": "Tuning"
+        }, 
+        {
+            "location": "/usb_4_mic_array/#realtime-sound-source-localization-and-tracking", 
+            "text": "ODAS  is a very cool project to perform sound source localization, tracking, separation and post-filtering. Let's have a try!   get ODAS and build it   sudo apt-get install libfftw3-dev libconfig-dev libasound2-dev\ngit clone https://github.com/introlab/odas.git --branch=dev\nmkdir odas/build\ncd odas/build\ncmake ..\nmake   get ODAS Studio from https://github.com/introlab/odas_web/releases and open it.   The  odascore  will be at  odas/bin/odascore , the config file is at  odas.cfg . Change  odas.cfg  based on your sound card number.      interface: {\n        type =  soundcard ;\n        card = 1;\n        device = 0;\n    }   upgrade your usb 4 mic array with  i6_firmware.bin  which provides 4 channels raw audio data.", 
+            "title": "Realtime sound source localization and tracking"
+        }, 
+        {
+            "location": "/usb_6+1_mic_array/", 
+            "text": "USB 6+1 Mic Array\n\n\n\n\nNote\n\n\nThe USB 6+1 Mic Array is discontinued as its main IC is discontinued by the IC vendor.\n\nIts successor USB 4 Mic Array\n will come soon. The USB 4 Mic Array has better built-in audio processing algorithms.\n\n\n\n\n\n\nThe USB 6+1 Mic Array is a circular microphone array with a 12 RGB LEDs ring. It has builtin VAD, DOA, NS and Beamforming algorithms.\n\n\nThe 12 RGB LEDs are programmable and can be controled through USB HID interface. The Mic Array also supports USB DFU to change its firmware. There is a firmware providing 8 channels audio data (7 channels raw data, 1 combined channel).\n\n\nResources\n\n\n\n\nrespeaker python library\n for audio recording and LED control\n\n\nAlgorithms for raw data mic array", 
+            "title": "USB 6+1 Mic Array"
+        }, 
+        {
+            "location": "/usb_6+1_mic_array/#usb-61-mic-array", 
+            "text": "Note  The USB 6+1 Mic Array is discontinued as its main IC is discontinued by the IC vendor. Its successor USB 4 Mic Array  will come soon. The USB 4 Mic Array has better built-in audio processing algorithms.    The USB 6+1 Mic Array is a circular microphone array with a 12 RGB LEDs ring. It has builtin VAD, DOA, NS and Beamforming algorithms.  The 12 RGB LEDs are programmable and can be controled through USB HID interface. The Mic Array also supports USB DFU to change its firmware. There is a firmware providing 8 channels audio data (7 channels raw data, 1 combined channel).", 
+            "title": "USB 6+1 Mic Array"
+        }, 
+        {
+            "location": "/usb_6+1_mic_array/#resources", 
+            "text": "respeaker python library  for audio recording and LED control  Algorithms for raw data mic array", 
+            "title": "Resources"
         }, 
         {
             "location": "/mt7688_core/", 
