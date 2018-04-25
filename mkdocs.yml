@@ -1,10 +1,10 @@
 site_name: ReSpeaker
 pages:
   - Overview: index.md
-  - USB 6+1 Mic Array: usb_6+1_mic_array.md
-  - 4 Mic Array for Pi: 4_mic_array.md
   - 2 Mic Array for Pi: 2_mic_array.md
+  - 4 Mic Array for Pi: 4_mic_array.md
   - USB 4 Mic Array: usb_4_mic_array.md
+  - USB 6+1 Mic Array: usb_6+1_mic_array.md
   - ReSpeaker Core v1.0 (MT7688): mt7688_core.md
   - ReSpeaker Core v2.0 (RK3229): rk3229_core.md
 theme:

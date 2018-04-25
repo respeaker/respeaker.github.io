@@ -9,7 +9,7 @@ The ReSpeaker project provides hardware components and software libraries to bui
 
 ## Hardware
 
-The hardware components include I2S microphone array for Raspberry Pi, USB microphone array for Linux/Windows/macOS, standalone ReSpeaker Core v1.0 & vv2.0.
+The hardware components include I2S microphone array for Raspberry Pi, USB microphone array for Linux/Windows/macOS, standalone ReSpeaker Core v1.0 & v2.0.
 
 ### Microphone Array
 
@@ -36,9 +36,7 @@ The hardware components include I2S microphone array for Raspberry Pi, USB micro
 
 ## Sofware
 
-Audio processing algorithms including VAD, DOA, Beamforming, NS, AEC and KWS are available and are evolving rapidly.
+Audio processing algorithms includes VAD, DOA, Beamforming, NS, AEC and KWS.
 
 ![](assets/images/mic_array.png)
-
-
 
