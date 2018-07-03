@@ -1,15 +1,15 @@
-# ReSpeaker 4 Mic Array for Raspberry Pi
+# ReSpeaker 6 Mic Array for Raspberry Pi
 
-![](assets/images/4_mic_array.jpg)
+![](assets/images/6_mic_array_for_pi.jpg)
 
-[![Get One](assets/images/get_one.png)](https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html)
+[![Get One](assets/images/get_one.png)](https://www.seeedstudio.com/ReSpeaker-6-Mic-Circular-Array-Kit-for-Raspberry-Pi-p-3067.html)
 
-The ReSpeaker 4 Mic Array for Raspberry Pi is a Pi hat with a 12 RGB LEDs ring.
-It is designed to build voice enabled applications such as Google Assistant and Alexa.
+The ReSpeaker 6 Mic Array for Raspberry Pi is a Pi hat with 6 microphones, 2 audio output channels and 2 loopback channels.
+The 2 loopback channels can be used for Acoustic Echo Cancellation (AEC). It has two parts, the main part and the mic array part.
 
-There are several algorithms such as DOA, VAD, NS and KWS we can use with the 4 mic array.
+There are several algorithms such as DOA, VAD, NS and KWS we can use with the 6 mic array.
 
-If you need other shape of mic array or need audio output, you may take a look of [the Hexagon 6 Mic Array for Pi](/6_mic_array), [the Linear 4 Mic Array](/linear_4_mic_array) and [2 mic hat for pi](/2_mic_array). If you want a custom shape mic array, you may try [Seeed's Fusion service](https://www.seeedstudio.com/fusion.html) to design a new one. It should be easy.
+If you are looking for a custom shape mic array, you may try [Seeed's Fusion service](https://www.seeedstudio.com/fusion.html) to design a new one. It should be easy.
 
 ## Sound Source Localization & Tracking
 [ODAS](https://github.com/introlab/odas) is a very cool project to perform sound source localization, tracking, separation and post-filtering. Let's have a try!
@@ -27,7 +27,7 @@ If you need other shape of mic array or need audio output, you may take a look o
 
 2. get ODAS Studio from https://github.com/introlab/odas_web/releases and open it. You can run ODAS Studio on a computer or the Raspberry Pi.
 
-    The `odascore` will be at `odas/bin/odascore`, the config file is at `odas/config/respeaker_4_mic_array.cfg`. Change `odas.cfg` based on your sound card number.
+    The `odaslive` will be at `odas/bin/odaslive`, the config file is [respeaker_6_mic_array.cfg](https://github.com/xiongyihui/odas/raw/master/config/odaslive/respeaker_6_mic_array.cfg). Change `card = 1` based on your sound card number.
 
 
         interface: {
@@ -43,9 +43,9 @@ If you need other shape of mic array or need audio output, you may take a look o
 + [Linux driver for Raspberry Pi](https://github.com/respeaker/seeed-voicecard)
 + [Algorithms includes DOA, VAD, NS](https://github.com/respeaker/mic_array)
 + [Voice Engine project, provides building blocks to create voice enabled objects](https://github.com/voice-engine/voice-engine)
-+ [Acoustic Echo Cancellation (AEC) project](https://github.com/voice-engine/ec)
+
 
 ## Wiki
-[http://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi](http://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi)
+[http://wiki.seeedstudio.com/ReSpeaker_6-Mic_Circular_Array_kit_for_Raspberry_Pi/](http://wiki.seeedstudio.com/ReSpeaker_6-Mic_Circular_Array_kit_for_Raspberry_Pi/)
 
 

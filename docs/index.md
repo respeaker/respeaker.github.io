@@ -13,15 +13,16 @@ The hardware components include I2S microphone array for Raspberry Pi, USB micro
 
 ### Microphone Array
 
-|              |  USB 6+1 Mic Array  | 4 Mic Array for Pi | 2 Mic Array for Pi | USB 4 Mic Array |
-|:------------:|:-------------------:|:------------------:|:------------------:|:---------------:|
-|  Microphones |          7          |          4         |          2         |        4        |
-|     Shape    |       circular      |       square       |      rectangle     |     circular    |
-|   Interface  |         USB         |         I2S        |         I2S        |       USB       |
-|   RGB LEDs   |          12         |         12         |          3         |        12       |
-| Audio Output |         Mono        |         NA         |       Stereo       |       Mono      |
-|     Note     | built-In algorithms |                    |                    |   coming soon   |
+|              | USB 4 Mic Array     | 2 Mic Array for Pi | 4 Mic Array for Pi | 4 Linear Mic Array for Pi | 6 Mic Array for Pi |
+|:------------:|---------------------|:------------------:|:------------------:|:-------------------------:|:------------------:|
+|  Microphones | 4                   |          2         |          4         |             4             |          6         |
+|     Shape    | circular            |       linear       |       square       |           linear          |       hexagon      |
+|   Interface  | USB                 |         I2S        |         I2S        |            I2S            |         I2S        |
+|   RGB LEDs   | 12                  |          3         |         12         |             NA            |         12         |
+| Audio Output | Mono                |       Stereo       |         NA         |           Stereo          |       Stereo       |
+|     Note     | built-in algorithms |                    |                    |                           |                    |
 
+If you are looking for a custom shape mic array, you may want to try [Seeed's Fusion service](https://www.seeedstudio.com/fusion.html) to design a new one based on our design. It should be easy.
 
 ### Standalone ReSpeaker Core
 
@@ -34,7 +35,7 @@ The hardware components include I2S microphone array for Raspberry Pi, USB micro
 | Interfaces  | WiFi, USB device            | WiFi, Bluetooth, Ethernet, HDMI, USB otg/host |
 | loopback    | NA                          | 2 channels                                    |
 
-## Sofware
+## Software
 
 Audio processing algorithms includes VAD, DOA, Beamforming, NS, AEC and KWS.
 
