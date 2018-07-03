@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2018-05-29</lastmod>
+     <lastmod>2018-07-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,7 +12,7 @@
     
     <url>
      <loc>/2_mic_array/</loc>
-     <lastmod>2018-05-29</lastmod>
+     <lastmod>2018-07-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -20,7 +20,23 @@
     
     <url>
      <loc>/4_mic_array/</loc>
-     <lastmod>2018-05-29</lastmod>
+     <lastmod>2018-07-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/linear_4_mic_array/</loc>
+     <lastmod>2018-07-03</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>/6_mic_array/</loc>
+     <lastmod>2018-07-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -28,7 +44,7 @@
     
     <url>
      <loc>/usb_4_mic_array/</loc>
-     <lastmod>2018-05-29</lastmod>
+     <lastmod>2018-07-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -36,7 +52,7 @@
     
     <url>
      <loc>/usb_6+1_mic_array/</loc>
-     <lastmod>2018-05-29</lastmod>
+     <lastmod>2018-07-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -44,7 +60,7 @@
     
     <url>
      <loc>/mt7688_core/</loc>
-     <lastmod>2018-05-29</lastmod>
+     <lastmod>2018-07-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -52,7 +68,7 @@
     
     <url>
      <loc>/rk3229_core/</loc>
-     <lastmod>2018-05-29</lastmod>
+     <lastmod>2018-07-03</lastmod>
      <changefreq>daily</changefreq>
     </url>
     

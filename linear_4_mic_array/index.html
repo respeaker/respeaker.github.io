@@ -32,7 +32,7 @@
     
     
       
-        <title>USB 6+1 Mic Array - ReSpeaker</title>
+        <title>Linear 4 Mic Array for Pi - ReSpeaker</title>
       
     
     
@@ -66,7 +66,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
     <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
     
-      <a href="#usb-61-mic-array" tabindex="1" class="md-skip">
+      <a href="#respeaker-linear-4-mic-array-for-raspberry-pi" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -92,7 +92,7 @@
                 ReSpeaker
               </span>
               <span class="md-header-nav__topic">
-                USB 6+1 Mic Array
+                Linear 4 Mic Array for Pi
               </span>
             
           
@@ -197,11 +197,54 @@
       
       
 
+  
 
-  <li class="md-nav__item">
-    <a href="../linear_4_mic_array/" title="Linear 4 Mic Array for Pi" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Linear 4 Mic Array for Pi
+      </label>
+    
+    <a href="./" title="Linear 4 Mic Array for Pi" class="md-nav__link md-nav__link--active">
       Linear 4 Mic Array for Pi
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#resources" title="Resources" class="md-nav__link">
+    Resources
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wiki" title="Wiki" class="md-nav__link">
+    Wiki
+  </a>
+  
+</li>
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -233,47 +276,11 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
-    
-      
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="toc">
-        USB 6+1 Mic Array
-      </label>
-    
-    <a href="./" title="USB 6+1 Mic Array" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../usb_6+1_mic_array/" title="USB 6+1 Mic Array" class="md-nav__link">
       USB 6+1 Mic Array
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#resources" title="Resources" class="md-nav__link">
-    Resources
-  </a>
-  
-</li>
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
     
@@ -328,6 +335,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#wiki" title="Wiki" class="md-nav__link">
+    Wiki
+  </a>
+  
+</li>
+      
       
       
     </ul>
@@ -343,20 +357,21 @@
               
                 
                 
-                <h1 id="usb-61-mic-array">USB 6+1 Mic Array</h1>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The USB 6+1 Mic Array is discontinued as its main IC is discontinued by the IC vendor.
-<a href="../usb_4_mic_array">Its successor USB 4 Mic Array</a> will come soon. The USB 4 Mic Array has better built-in audio processing algorithms.</p>
-</div>
-<p><img alt="" src="../assets/images/usb_6p1_mic_array.jpg" /></p>
-<p>The USB 6+1 Mic Array is a circular microphone array with a 12 RGB LEDs ring. It has builtin VAD, DOA, NS and Beamforming algorithms.</p>
-<p>The 12 RGB LEDs are programmable and can be controled through USB HID interface. The Mic Array also supports USB DFU to change its firmware. There is a firmware providing 8 channels audio data (7 channels raw data, 1 combined channel).</p>
-<h3 id="resources">Resources</h3>
+                <h1 id="respeaker-linear-4-mic-array-for-raspberry-pi">ReSpeaker Linear 4 Mic Array for Raspberry Pi</h1>
+<p><img alt="" src="../assets/images/linear_4_mic_array.jpg" /></p>
+<p><a href="https://www.seeedstudio.com/ReSpeaker-4-Mic-Linear-Array-Kit-p-3066.html"><img alt="Get One" src="../assets/images/get_one.png" /></a></p>
+<p>The ReSpeaker Linear 4 Mic Array for Raspberry Pi is a Pi hat with 4 microphones, 2 audio output channels and 2 loopback channels.
+The 2 loopback channels can be used for Acoustic Echo Cancellation (AEC). It has two parts, the main part and the linear mic array part.</p>
+<p>If you are looking for other shape of mic array, you may take a look of <a href="../6_mic_array">the Hexagon 6 Mic Array for Pi</a>, <a href="../6_mic_array">the Square 4 Mic Array</a> and <a href="../2_mic_array">2 mic hat for pi</a>. Or if you want a custom shape mic array, you may try <a href="https://www.seeedstudio.com/fusion.html">Seeed's Fusion service</a> to design a new one. It should be easy.</p>
+<h2 id="resources">Resources</h2>
 <ul>
-<li><a href="https://github.com/respeaker/respeaker_python_library">respeaker python library</a> for audio recording and LED control</li>
-<li><a href="https://github.com/respeaker/mic_array">Algorithms for raw data mic array</a></li>
+<li><a href="https://github.com/respeaker/seeed-voicecard">Linux driver for Raspberry Pi</a></li>
+<li><a href="https://github.com/respeaker/mic_array">Algorithms includes DOA, VAD, NS</a></li>
+<li><a href="https://github.com/voice-engine/voice-engine">Voice Engine project, provides building blocks to create voice enabled objects</a></li>
+<li><a href="https://github.com/voice-engine/ec">Acoustic Echo Cancellation (AEC) project</a></li>
 </ul>
+<h2 id="wiki">Wiki</h2>
+<p><a href="http://wiki.seeedstudio.com/ReSpeaker_4-Mic_Linear_Array_Kit_for_Raspberry_Pi/">http://wiki.seeedstudio.com/ReSpeaker_4-Mic_Linear_Array_Kit_for_Raspberry_Pi/</a></p>
                 
                   
                 
@@ -375,7 +390,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../usb_4_mic_array/" title="USB 4 Mic Array" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../4_mic_array/" title="4 Mic Array for Pi" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -384,19 +399,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                USB 4 Mic Array
+                4 Mic Array for Pi
               </span>
             </div>
           </a>
         
         
-          <a href="../mt7688_core/" title="ReSpeaker Core v1.0 (MT7688)" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../6_mic_array/" title="6 Mic Array for Pi" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                ReSpeaker Core v1.0 (MT7688)
+                6 Mic Array for Pi
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">

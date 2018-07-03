@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "The ReSpeaker Project\n\n\n\n\nNote\n\n\nThe website is still under construction\n\n\n\n\nThe ReSpeaker project provides hardware components and software libraries to build voice enabled device.\n\n\n\n\nHardware\n\n\nThe hardware components include I2S microphone array for Raspberry Pi, USB microphone array for Linux/Windows/macOS, standalone ReSpeaker Core v1.0 \n v2.0.\n\n\nMicrophone Array\n\n\n\n\n\n\n\n\n\n\nUSB 6+1 Mic Array\n\n\n4 Mic Array for Pi\n\n\n2 Mic Array for Pi\n\n\nUSB 4 Mic Array\n\n\n\n\n\n\n\n\n\n\nMicrophones\n\n\n7\n\n\n4\n\n\n2\n\n\n4\n\n\n\n\n\n\nShape\n\n\ncircular\n\n\nsquare\n\n\nrectangle\n\n\ncircular\n\n\n\n\n\n\nInterface\n\n\nUSB\n\n\nI2S\n\n\nI2S\n\n\nUSB\n\n\n\n\n\n\nRGB LEDs\n\n\n12\n\n\n12\n\n\n3\n\n\n12\n\n\n\n\n\n\nAudio Output\n\n\nMono\n\n\nNA\n\n\nStereo\n\n\nMono\n\n\n\n\n\n\nNote\n\n\nbuilt-In algorithms\n\n\n\n\n\n\ncoming soon\n\n\n\n\n\n\n\n\nStandalone ReSpeaker Core\n\n\n\n\n\n\n\n\n\n\nReSpeaker Core v1 (MT7688)\n\n\nReSpeaker Core v2 (RK3229)\n\n\n\n\n\n\n\n\n\n\nCPU\n\n\nMT7688 (MIPS24KEc, 580 MHz)\n\n\nRK3229 (4 ARM Cortex A7 cores, 1.5GHz)\n\n\n\n\n\n\nRAM\n\n\n256 MB\n\n\n1 GB\n\n\n\n\n\n\nMicrophones\n\n\n1\n\n\n6\n\n\n\n\n\n\nShape\n\n\ncircular\n\n\nhexagon\n\n\n\n\n\n\nInterfaces\n\n\nWiFi, USB device\n\n\nWiFi, Bluetooth, Ethernet, HDMI, USB otg/host\n\n\n\n\n\n\nloopback\n\n\nNA\n\n\n2 channels\n\n\n\n\n\n\n\n\nSoftware\n\n\nAudio processing algorithms includes VAD, DOA, Beamforming, NS, AEC and KWS.", 
+            "text": "The ReSpeaker Project\n\n\n\n\nNote\n\n\nThe website is still under construction\n\n\n\n\nThe ReSpeaker project provides hardware components and software libraries to build voice enabled device.\n\n\n\n\nHardware\n\n\nThe hardware components include I2S microphone array for Raspberry Pi, USB microphone array for Linux/Windows/macOS, standalone ReSpeaker Core v1.0 \n v2.0.\n\n\nMicrophone Array\n\n\n\n\n\n\n\n\n\n\nUSB 4 Mic Array\n\n\n2 Mic Array for Pi\n\n\n4 Mic Array for Pi\n\n\n4 Linear Mic Array for Pi\n\n\n6 Mic Array for Pi\n\n\n\n\n\n\n\n\n\n\nMicrophones\n\n\n4\n\n\n2\n\n\n4\n\n\n4\n\n\n6\n\n\n\n\n\n\nShape\n\n\ncircular\n\n\nlinear\n\n\nsquare\n\n\nlinear\n\n\nhexagon\n\n\n\n\n\n\nInterface\n\n\nUSB\n\n\nI2S\n\n\nI2S\n\n\nI2S\n\n\nI2S\n\n\n\n\n\n\nRGB LEDs\n\n\n12\n\n\n3\n\n\n12\n\n\nNA\n\n\n12\n\n\n\n\n\n\nAudio Output\n\n\nMono\n\n\nStereo\n\n\nNA\n\n\nStereo\n\n\nStereo\n\n\n\n\n\n\nNote\n\n\nbuilt-in algorithms\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIf you are looking for a custom shape mic array, you may want to try \nSeeed's Fusion service\n to design a new one based on our design. It should be easy.\n\n\nStandalone ReSpeaker Core\n\n\n\n\n\n\n\n\n\n\nReSpeaker Core v1 (MT7688)\n\n\nReSpeaker Core v2 (RK3229)\n\n\n\n\n\n\n\n\n\n\nCPU\n\n\nMT7688 (MIPS24KEc, 580 MHz)\n\n\nRK3229 (4 ARM Cortex A7 cores, 1.5GHz)\n\n\n\n\n\n\nRAM\n\n\n256 MB\n\n\n1 GB\n\n\n\n\n\n\nMicrophones\n\n\n1\n\n\n6\n\n\n\n\n\n\nShape\n\n\ncircular\n\n\nhexagon\n\n\n\n\n\n\nInterfaces\n\n\nWiFi, USB device\n\n\nWiFi, Bluetooth, Ethernet, HDMI, USB otg/host\n\n\n\n\n\n\nloopback\n\n\nNA\n\n\n2 channels\n\n\n\n\n\n\n\n\nSoftware\n\n\nAudio processing algorithms includes VAD, DOA, Beamforming, NS, AEC and KWS.", 
             "title": "Overview"
         }, 
         {
@@ -17,7 +17,7 @@
         }, 
         {
             "location": "/#microphone-array", 
-            "text": "USB 6+1 Mic Array  4 Mic Array for Pi  2 Mic Array for Pi  USB 4 Mic Array      Microphones  7  4  2  4    Shape  circular  square  rectangle  circular    Interface  USB  I2S  I2S  USB    RGB LEDs  12  12  3  12    Audio Output  Mono  NA  Stereo  Mono    Note  built-In algorithms    coming soon", 
+            "text": "USB 4 Mic Array  2 Mic Array for Pi  4 Mic Array for Pi  4 Linear Mic Array for Pi  6 Mic Array for Pi      Microphones  4  2  4  4  6    Shape  circular  linear  square  linear  hexagon    Interface  USB  I2S  I2S  I2S  I2S    RGB LEDs  12  3  12  NA  12    Audio Output  Mono  Stereo  NA  Stereo  Stereo    Note  built-in algorithms         If you are looking for a custom shape mic array, you may want to try  Seeed's Fusion service  to design a new one based on our design. It should be easy.", 
             "title": "Microphone Array"
         }, 
         {
@@ -52,12 +52,12 @@
         }, 
         {
             "location": "/4_mic_array/", 
-            "text": "ReSpeaker 4 Mic Array for Raspberry Pi\n\n\n\n\n\n\nThe ReSpeaker 4 Mic Array for Raspberry Pi is a Pi hat with a 12 RGB LEDs ring.\nIt is designed to build voice enabled applications such as Google Assistant and Alexa.\n\n\nThere are several algorithms such as DOA, VAD, NS and KWS we can use with the 4 mic array.\n\n\nSound Source Localization \n Tracking\n\n\nODAS\n is a very cool project to perform sound source localization, tracking, separation and post-filtering. Let's have a try!\n\n\n\n\n\n\n\n\nget ODAS and build it\n\n\nsudo apt-get install libfftw3-dev libconfig-dev libasound2-dev\ngit clone https://github.com/introlab/odas.git\nmkdir odas/build\ncd odas/build\ncmake ..\nmake\n\n\n\n\n\n\n\nget ODAS Studio from https://github.com/introlab/odas_web/releases and open it. You can run ODAS Studio on a computer or the Raspberry Pi.\n\n\nThe \nodascore\n will be at \nodas/bin/odascore\n, the config file is at \nodas/config/respeaker_4_mic_array.cfg\n. Change \nodas.cfg\n based on your sound card number.\n\n\ninterface: {\n    type = \"soundcard\";\n    card = 1;\n    device = 0;\n}\n\n\n\nIf you run the ODAS Studio on a computer, you should also need to change IP address from \n127.0.0.1\n to the IP of the computer.\n\n\n\n\n\n\nResources\n\n\n\n\nLinux driver for Raspberry Pi\n\n\nAlgorithms includes DOA, VAD, NS\n\n\nVoice Engine project, provides building blocks to create voice enabled objects\n\n\nAcoustic Echo Cancellation (AEC) project\n\n\n\n\nWiki\n\n\nhttp://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi", 
+            "text": "ReSpeaker 4 Mic Array for Raspberry Pi\n\n\n\n\n\n\nThe ReSpeaker 4 Mic Array for Raspberry Pi is a Pi hat with a 12 RGB LEDs ring.\nIt is designed to build voice enabled applications such as Google Assistant and Alexa.\n\n\nThere are several algorithms such as DOA, VAD, NS and KWS we can use with the 4 mic array.\n\n\nIf you need other shape of mic array or need audio output, you may take a look of \nthe Hexagon 6 Mic Array for Pi\n, \nthe Linear 4 Mic Array\n and \n2 mic hat for pi\n. If you want a custom shape mic array, you may try \nSeeed's Fusion service\n to design a new one. It should be easy.\n\n\nSound Source Localization \n Tracking\n\n\nODAS\n is a very cool project to perform sound source localization, tracking, separation and post-filtering. Let's have a try!\n\n\n\n\n\n\n\n\nget ODAS and build it\n\n\nsudo apt-get install libfftw3-dev libconfig-dev libasound2-dev\ngit clone https://github.com/introlab/odas.git\nmkdir odas/build\ncd odas/build\ncmake ..\nmake\n\n\n\n\n\n\n\nget ODAS Studio from https://github.com/introlab/odas_web/releases and open it. You can run ODAS Studio on a computer or the Raspberry Pi.\n\n\nThe \nodascore\n will be at \nodas/bin/odascore\n, the config file is at \nodas/config/respeaker_4_mic_array.cfg\n. Change \nodas.cfg\n based on your sound card number.\n\n\ninterface: {\n    type = \"soundcard\";\n    card = 1;\n    device = 0;\n}\n\n\n\nIf you run the ODAS Studio on a computer, you should also need to change IP address from \n127.0.0.1\n to the IP of the computer.\n\n\n\n\n\n\nResources\n\n\n\n\nLinux driver for Raspberry Pi\n\n\nAlgorithms includes DOA, VAD, NS\n\n\nVoice Engine project, provides building blocks to create voice enabled objects\n\n\nAcoustic Echo Cancellation (AEC) project\n\n\n\n\nWiki\n\n\nhttp://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi", 
             "title": "4 Mic Array for Pi"
         }, 
         {
             "location": "/4_mic_array/#respeaker-4-mic-array-for-raspberry-pi", 
-            "text": "The ReSpeaker 4 Mic Array for Raspberry Pi is a Pi hat with a 12 RGB LEDs ring.\nIt is designed to build voice enabled applications such as Google Assistant and Alexa.  There are several algorithms such as DOA, VAD, NS and KWS we can use with the 4 mic array.", 
+            "text": "The ReSpeaker 4 Mic Array for Raspberry Pi is a Pi hat with a 12 RGB LEDs ring.\nIt is designed to build voice enabled applications such as Google Assistant and Alexa.  There are several algorithms such as DOA, VAD, NS and KWS we can use with the 4 mic array.  If you need other shape of mic array or need audio output, you may take a look of  the Hexagon 6 Mic Array for Pi ,  the Linear 4 Mic Array  and  2 mic hat for pi . If you want a custom shape mic array, you may try  Seeed's Fusion service  to design a new one. It should be easy.", 
             "title": "ReSpeaker 4 Mic Array for Raspberry Pi"
         }, 
         {
@@ -73,6 +73,51 @@
         {
             "location": "/4_mic_array/#wiki", 
             "text": "http://wiki.seeedstudio.com/ReSpeaker_4_Mic_Array_for_Raspberry_Pi", 
+            "title": "Wiki"
+        }, 
+        {
+            "location": "/linear_4_mic_array/", 
+            "text": "ReSpeaker Linear 4 Mic Array for Raspberry Pi\n\n\n\n\n\n\nThe ReSpeaker Linear 4 Mic Array for Raspberry Pi is a Pi hat with 4 microphones, 2 audio output channels and 2 loopback channels.\nThe 2 loopback channels can be used for Acoustic Echo Cancellation (AEC). It has two parts, the main part and the linear mic array part.\n\n\nIf you are looking for other shape of mic array, you may take a look of \nthe Hexagon 6 Mic Array for Pi\n, \nthe Square 4 Mic Array\n and \n2 mic hat for pi\n. Or if you want a custom shape mic array, you may try \nSeeed's Fusion service\n to design a new one. It should be easy.\n\n\nResources\n\n\n\n\nLinux driver for Raspberry Pi\n\n\nAlgorithms includes DOA, VAD, NS\n\n\nVoice Engine project, provides building blocks to create voice enabled objects\n\n\nAcoustic Echo Cancellation (AEC) project\n\n\n\n\nWiki\n\n\nhttp://wiki.seeedstudio.com/ReSpeaker_4-Mic_Linear_Array_Kit_for_Raspberry_Pi/", 
+            "title": "Linear 4 Mic Array for Pi"
+        }, 
+        {
+            "location": "/linear_4_mic_array/#respeaker-linear-4-mic-array-for-raspberry-pi", 
+            "text": "The ReSpeaker Linear 4 Mic Array for Raspberry Pi is a Pi hat with 4 microphones, 2 audio output channels and 2 loopback channels.\nThe 2 loopback channels can be used for Acoustic Echo Cancellation (AEC). It has two parts, the main part and the linear mic array part.  If you are looking for other shape of mic array, you may take a look of  the Hexagon 6 Mic Array for Pi ,  the Square 4 Mic Array  and  2 mic hat for pi . Or if you want a custom shape mic array, you may try  Seeed's Fusion service  to design a new one. It should be easy.", 
+            "title": "ReSpeaker Linear 4 Mic Array for Raspberry Pi"
+        }, 
+        {
+            "location": "/linear_4_mic_array/#resources", 
+            "text": "Linux driver for Raspberry Pi  Algorithms includes DOA, VAD, NS  Voice Engine project, provides building blocks to create voice enabled objects  Acoustic Echo Cancellation (AEC) project", 
+            "title": "Resources"
+        }, 
+        {
+            "location": "/linear_4_mic_array/#wiki", 
+            "text": "http://wiki.seeedstudio.com/ReSpeaker_4-Mic_Linear_Array_Kit_for_Raspberry_Pi/", 
+            "title": "Wiki"
+        }, 
+        {
+            "location": "/6_mic_array/", 
+            "text": "ReSpeaker 6 Mic Array for Raspberry Pi\n\n\n\n\n\n\nThe ReSpeaker 6 Mic Array for Raspberry Pi is a Pi hat with 6 microphones, 2 audio output channels and 2 loopback channels.\nThe 2 loopback channels can be used for Acoustic Echo Cancellation (AEC). It has two parts, the main part and the mic array part.\n\n\nThere are several algorithms such as DOA, VAD, NS and KWS we can use with the 6 mic array.\n\n\nIf you are looking for a custom shape mic array, you may try \nSeeed's Fusion service\n to design a new one. It should be easy.\n\n\nSound Source Localization \n Tracking\n\n\nODAS\n is a very cool project to perform sound source localization, tracking, separation and post-filtering. Let's have a try!\n\n\n\n\n\n\n\n\nget ODAS and build it\n\n\nsudo apt-get install libfftw3-dev libconfig-dev libasound2-dev\ngit clone https://github.com/introlab/odas.git\nmkdir odas/build\ncd odas/build\ncmake ..\nmake\n\n\n\n\n\n\n\nget ODAS Studio from https://github.com/introlab/odas_web/releases and open it. You can run ODAS Studio on a computer or the Raspberry Pi.\n\n\nThe \nodaslive\n will be at \nodas/bin/odaslive\n, the config file is \nrespeaker_6_mic_array.cfg\n. Change \ncard = 1\n based on your sound card number.\n\n\ninterface: {\n    type = \"soundcard\";\n    card = 1;\n    device = 0;\n}\n\n\n\nIf you run the ODAS Studio on a computer, you should also need to change IP address from \n127.0.0.1\n to the IP of the computer.\n\n\n\n\n\n\nResources\n\n\n\n\nLinux driver for Raspberry Pi\n\n\nAlgorithms includes DOA, VAD, NS\n\n\nVoice Engine project, provides building blocks to create voice enabled objects\n\n\n\n\nWiki\n\n\nhttp://wiki.seeedstudio.com/ReSpeaker_6-Mic_Circular_Array_kit_for_Raspberry_Pi/", 
+            "title": "6 Mic Array for Pi"
+        }, 
+        {
+            "location": "/6_mic_array/#respeaker-6-mic-array-for-raspberry-pi", 
+            "text": "The ReSpeaker 6 Mic Array for Raspberry Pi is a Pi hat with 6 microphones, 2 audio output channels and 2 loopback channels.\nThe 2 loopback channels can be used for Acoustic Echo Cancellation (AEC). It has two parts, the main part and the mic array part.  There are several algorithms such as DOA, VAD, NS and KWS we can use with the 6 mic array.  If you are looking for a custom shape mic array, you may try  Seeed's Fusion service  to design a new one. It should be easy.", 
+            "title": "ReSpeaker 6 Mic Array for Raspberry Pi"
+        }, 
+        {
+            "location": "/6_mic_array/#sound-source-localization-tracking", 
+            "text": "ODAS  is a very cool project to perform sound source localization, tracking, separation and post-filtering. Let's have a try!     get ODAS and build it  sudo apt-get install libfftw3-dev libconfig-dev libasound2-dev\ngit clone https://github.com/introlab/odas.git\nmkdir odas/build\ncd odas/build\ncmake ..\nmake    get ODAS Studio from https://github.com/introlab/odas_web/releases and open it. You can run ODAS Studio on a computer or the Raspberry Pi.  The  odaslive  will be at  odas/bin/odaslive , the config file is  respeaker_6_mic_array.cfg . Change  card = 1  based on your sound card number.  interface: {\n    type = \"soundcard\";\n    card = 1;\n    device = 0;\n}  If you run the ODAS Studio on a computer, you should also need to change IP address from  127.0.0.1  to the IP of the computer.", 
+            "title": "Sound Source Localization &amp; Tracking"
+        }, 
+        {
+            "location": "/6_mic_array/#resources", 
+            "text": "Linux driver for Raspberry Pi  Algorithms includes DOA, VAD, NS  Voice Engine project, provides building blocks to create voice enabled objects", 
+            "title": "Resources"
+        }, 
+        {
+            "location": "/6_mic_array/#wiki", 
+            "text": "http://wiki.seeedstudio.com/ReSpeaker_6-Mic_Circular_Array_kit_for_Raspberry_Pi/", 
             "title": "Wiki"
         }, 
         {
