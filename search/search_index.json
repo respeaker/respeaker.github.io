@@ -214,6 +214,61 @@
             "location": "/rk3229_core/#wiki", 
             "text": "http://wiki.seeedstudio.com/ReSpeaker_Core_v2.0/", 
             "title": "Wiki"
+        }, 
+        {
+            "location": "/make_a_smart_speaker/", 
+            "text": "To make a smart speaker\n\n\n\n\n Github\n\n\n\n\nHere is a collection of resources to make a smart speaker. Hope one day we can make an open source one for daily use.\n\n\nThe simplified flowchart of a smart speaker is like:\n\n\n+---+   +----------------+   +---+   +---+   +---+\n|Mic|--\n|Audio Processing|--\n|KWS|--\n|STT|--\n|NLU|\n+---+   +----------------+   +---+   +---+   +-+-+\n                                               |\n                                               |\n+-------+   +---+   +----------------------+   |\n|Speaker|\n--|TTS|\n--|Knowledge/Skill/Action|\n--+\n+-------+   +---+   +----------------------+\n\n\n\n\n\n\nAudio Processing includes Acoustic Echo Cancellation (AEC), Beamforming, Noise Suppression (NS), etc.\n\n\nKeyword Spotting (KWS) detects a keyword (such as OK Google, Hey Siri) to start a conversation.\n\n\nSpeech To Text (STT)\n\n\nNatural Language Understanding (NLU) converts raw text into structured data.\n\n\nKnowledge/Skill/Action - Knowledge base and plugins (Alexa Skill, Google Action) to provide an answer.\n\n\nText To Speech\n\n\n\n\n\n\nKWS + STT + NLU + Skill + TTS\n\n\nActive open source projects\n\n\n\n\nMycroft\n -  a hackable open source voice assistant\n\n\ndingdang robot\n - a Chinese voice interaction robot based on \nJasper\n and built with raspberry pi\n\n\n\n\nSDK\n\n\n\n\n\n\nAmazon Alexa Voice Service - is the most widely used voice assistant\n\n\n\n\n\n\nC++ SDK\n\n\n\n\nJava Client\n\n\n\n\nPython Client\n\n\n\n\n\n\nGoogle Assistant SDK\n\n\n\n\n\n\nIt has the smartest brain, its extension called Google Action can be created on a few steps with digitalflow.ai and its Device Action is very suit for home smart devices.\n\n\n\n\nBaidu DuerOS\n\n\n\n\nKWS\n\n\n\n\nMycroft Precise\n - A lightweight, simple-to-use, RNN wake word listener\n\n\nSnowboy\n - DNN based hotword and wake word detection toolkit\n\n\nHonk\n - PyTorch reimplementation of Google's TensorFlow CNNs for keyword spotting\n\n\nML-KWS-For-MCU\n - Maybe the most promise for resource constrained devices such as ARM Cortex M7 microcontroller\n\n\n\n\nSTT\n\n\n\n\nMozilla DeepSpeech\n - A TensorFlow implementation of Baidu's DeepSpeech architecture\n\n\nKaldi\n\n\nPocketSphinx\n - a lightweight speech recognition engine using HMM + GMM\n\n\n\n\nNLU\n\n\n\n\n\n\nRasa NLU\n\n\n\n\n\n\nRasa NLU for Chinese\n\n\n\n\n\n\nSnips NLU\n - a Python library that allows to parse sentences written in natural language and extracts structured information.\n\n\n\n\n\n\nTTS\n\n\n\n\nMimic\n - Mycroft's TTS engine, based on CMU's Flite (Festival Lite)\n\n\nmanytts\n - an open-source, multilingual text-to-speech synthesis system written in pure java\n\n\nespeak-ng\n - an open source speech synthesizer that supports 99 languages and accents.\n\n\nekho\n - Chinese text-to-speech engine\n\n\nWaveNet, Tacotron 2\n\n\n\n\nAudio Processing\n\n\n\n\n\n\nAcoustic Echo Cancellation\n\n\n\n\n\n\nSpeexDSP\n, its python binding \nspeexdsp-python\n\n\n\n\n\n\nEC\n - Echo Cancelation Daemon based on SpeexDSP AEC for Raspberry Pi or other devices running Linux.\n\n\n\n\n\n\nDirection Of Arrival (DOA) - Most used DOA algorithms is GCC-PHAT\n\n\n\n\n\n\ntdoa\n\n\n\n\n\n\nodas\n - ODAS stands for Open embeddeD Audition System. This is a library dedicated to perform sound source localization, tracking, separation and post-filtering. ODAS is coded entirely in C, for more portability, and is optimized to run easily on low-cost embedded hardware. ODAS is free and open source.\n\n\n\n\n\n\nBeamforming\n\n\n\n\n\n\nBeamformIt\n - filter\nsum beamforming\n\n\n\n\nCGMM Beamforming - \na reference implementation\n\n\nMVDR Beamforming\n\n\n\n\nGSC Beamforming\n\n\n\n\n\n\nVoice Activity Detection\n\n\n\n\n\n\nWebRTC VAD, \npy-webrtcvad\n\n\n\n\n\n\nDNN VAD\n\n\n\n\n\n\nNoise Suppresion\n\n\n\n\n\n\nNS of WebRTC audio processing, \npython-webrtc-audio-processing\n\n\n\n\n\n\nAudio I/O\n\n\n\n\nPortAudio, pyaudio\n\n\nlibsoundio\n\n\nALSA\n\n\nPulseAudio\n\n\nPipewire", 
+            "title": "Make a smart speaker"
+        }, 
+        {
+            "location": "/make_a_smart_speaker/#to-make-a-smart-speaker", 
+            "text": "Github   Here is a collection of resources to make a smart speaker. Hope one day we can make an open source one for daily use.  The simplified flowchart of a smart speaker is like:  +---+   +----------------+   +---+   +---+   +---+\n|Mic|-- |Audio Processing|-- |KWS|-- |STT|-- |NLU|\n+---+   +----------------+   +---+   +---+   +-+-+\n                                               |\n                                               |\n+-------+   +---+   +----------------------+   |\n|Speaker| --|TTS| --|Knowledge/Skill/Action| --+\n+-------+   +---+   +----------------------+   Audio Processing includes Acoustic Echo Cancellation (AEC), Beamforming, Noise Suppression (NS), etc.  Keyword Spotting (KWS) detects a keyword (such as OK Google, Hey Siri) to start a conversation.  Speech To Text (STT)  Natural Language Understanding (NLU) converts raw text into structured data.  Knowledge/Skill/Action - Knowledge base and plugins (Alexa Skill, Google Action) to provide an answer.  Text To Speech", 
+            "title": "To make a smart speaker"
+        }, 
+        {
+            "location": "/make_a_smart_speaker/#kws-stt-nlu-skill-tts", 
+            "text": "", 
+            "title": "KWS + STT + NLU + Skill + TTS"
+        }, 
+        {
+            "location": "/make_a_smart_speaker/#active-open-source-projects", 
+            "text": "Mycroft  -  a hackable open source voice assistant  dingdang robot  - a Chinese voice interaction robot based on  Jasper  and built with raspberry pi", 
+            "title": "Active open source projects"
+        }, 
+        {
+            "location": "/make_a_smart_speaker/#sdk", 
+            "text": "Amazon Alexa Voice Service - is the most widely used voice assistant    C++ SDK   Java Client   Python Client    Google Assistant SDK    It has the smartest brain, its extension called Google Action can be created on a few steps with digitalflow.ai and its Device Action is very suit for home smart devices.   Baidu DuerOS", 
+            "title": "SDK"
+        }, 
+        {
+            "location": "/make_a_smart_speaker/#kws", 
+            "text": "Mycroft Precise  - A lightweight, simple-to-use, RNN wake word listener  Snowboy  - DNN based hotword and wake word detection toolkit  Honk  - PyTorch reimplementation of Google's TensorFlow CNNs for keyword spotting  ML-KWS-For-MCU  - Maybe the most promise for resource constrained devices such as ARM Cortex M7 microcontroller", 
+            "title": "KWS"
+        }, 
+        {
+            "location": "/make_a_smart_speaker/#stt", 
+            "text": "Mozilla DeepSpeech  - A TensorFlow implementation of Baidu's DeepSpeech architecture  Kaldi  PocketSphinx  - a lightweight speech recognition engine using HMM + GMM", 
+            "title": "STT"
+        }, 
+        {
+            "location": "/make_a_smart_speaker/#nlu", 
+            "text": "Rasa NLU    Rasa NLU for Chinese    Snips NLU  - a Python library that allows to parse sentences written in natural language and extracts structured information.", 
+            "title": "NLU"
+        }, 
+        {
+            "location": "/make_a_smart_speaker/#tts", 
+            "text": "Mimic  - Mycroft's TTS engine, based on CMU's Flite (Festival Lite)  manytts  - an open-source, multilingual text-to-speech synthesis system written in pure java  espeak-ng  - an open source speech synthesizer that supports 99 languages and accents.  ekho  - Chinese text-to-speech engine  WaveNet, Tacotron 2", 
+            "title": "TTS"
+        }, 
+        {
+            "location": "/make_a_smart_speaker/#audio-processing", 
+            "text": "Acoustic Echo Cancellation    SpeexDSP , its python binding  speexdsp-python    EC  - Echo Cancelation Daemon based on SpeexDSP AEC for Raspberry Pi or other devices running Linux.    Direction Of Arrival (DOA) - Most used DOA algorithms is GCC-PHAT    tdoa    odas  - ODAS stands for Open embeddeD Audition System. This is a library dedicated to perform sound source localization, tracking, separation and post-filtering. ODAS is coded entirely in C, for more portability, and is optimized to run easily on low-cost embedded hardware. ODAS is free and open source.    Beamforming    BeamformIt  - filter sum beamforming   CGMM Beamforming -  a reference implementation  MVDR Beamforming   GSC Beamforming    Voice Activity Detection    WebRTC VAD,  py-webrtcvad    DNN VAD    Noise Suppresion    NS of WebRTC audio processing,  python-webrtc-audio-processing", 
+            "title": "Audio Processing"
+        }, 
+        {
+            "location": "/make_a_smart_speaker/#audio-io", 
+            "text": "PortAudio, pyaudio  libsoundio  ALSA  PulseAudio  Pipewire", 
+            "title": "Audio I/O"
         }
     ]
 }
